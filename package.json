@@ -1,0 +1,16 @@
+{
+  "name": "site_casamento",
+  "description": "Site de casamento da Camilla e Felipe",
+  "version": "1.0.0",
+  "homepage": "https://github.com/felipeleao/site_casamento",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felipeleao/site_casamento.git"
+  },
+  "bugs": {
+    "url": "https://github.com/felipeleao/site_casamento/issues"
+  },
+  "devDependencies": {
+  },
+  "keywords": []
+}

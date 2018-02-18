@@ -1,0 +1,19 @@
+{
+  "name": "site_casamento",
+  "version": "1.0.0",
+  "main": "dist/site_casamento.min.js",
+  "ignore": [
+    "analytics",
+    "node_modules",
+    "vendor",
+    "test",
+    "docs"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.6.9",
+    "angular-bootstrap": "^2.5.0",
+    "angular-animate": "^1.6.9",
+    "angular-sanitize": "^1.6.9"
+  }
+}
