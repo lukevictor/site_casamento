@@ -1,233 +1,162 @@
-module.exports = function(grunt){
-    var pkg = require('./package.json'), //package file
-        i, //iterative member
-        jslink = require(__dirname+'/linker/js.json').link,
-        csslink = require(__dirname+"/linker/css.json").link;
+/**
+ * Arquivo de configuracaoo das tasks a serem executadas pelo Grunt no projeto.
+ */
+module.exports = function(grunt) {
 
-    csslink.push("src/css/**/*.css");
+	// Configuracao do projeto
+	grunt.initConfig({
+		app: {
+                source: 'src/assets',
+				dist: 'assets',
+                views: 'src/views',
+                templates: 'template/'
+            },
+            
+		// Plugin para validar todos os scripts javascript antes de passar pelo 'uglify' (ignora os .min.js)
+		jshint : {
+			options : {
+				ignores : [ 
+                    '<%= app.source %>/_js/css-js-fixes/*.js',
+                    '<%= app.source %>/_js/build/*.js'
+				 ]
+			},
+			all : [ 'Gruntfile.js', '<%= app.source %>/_js/**/*.js' ]
+		},
 
-    grunt.initConfig({
-        "pkg": grunt.file.readJSON('package.json'),
-        "bump":{
-            "options":{
-                "files":[
-                    "package.json",
-                    "bower.json"
-                ],
-                "updateConfigs": ["pkg"],
-                "commit": true,
-                "commitMessage": "Release v%VERSION%",
-                "commitFiles": ["-a"],
-                "createTag": true,
-                "tagName": "v%VERSION%",
-                "tagMessage": "Version %VERSION%",
-                "push": true,
-                "pushTo": "origin"
-            }
-        },
-        "karma":{
-            "unit-pre":{
-                "configFile": "karma.unit.pre.js",
-                "autowatch": false
-            },
-            "unit-post":{
-                "configFile": "karma.unit.post.js",
-                "autowatch": false
-            }
-        },
-        "express":{
-            "server":{
-                "options":{
-                    "script":"server.js"
-                }
-            }
-        },
-        "concurrent":{
-            "environment":{
-                "tasks":["watch","express"],
-                "options":{
-                    "logConcurrentOutput":true
-                }
-            }
-        },
-        "strip":{
-            "dist":{
-                "src":"process/app.js",
-                "options":{
-                    "inline":true,
-                    "nodes":[
-                        "console.log",
-                        "console.warn",
-                        "debugger"
-                    ]
-                }
-            }
-        },
-        "cssmin":{
-            "options":{
-                "banner": "/*! <%= pkg.name %> - v<%= pkg.version %> - <%= grunt.template.today('dd/mm/yyyy') %> */",
-                "report":"gzip"
-            },
-            "dist":{
-                "files":{
-                    "dist/app.css":csslink
-                }
-            }
-        },
-        "plato":{
-            "report":{
-                "options":{
-                    "jshint":false
-                },
-                "files":{
-                    "analytics/complexity":["src/js/**/*.js"]
-                }
-            }
-        },
-        "jshint":{
-            "options":{
-                "smarttabs":true,
-                "unused":false,
-                "boss":true,
-                "debug":true
-            },
-            "all":["src/js/**/*.js"]
-        },
-        "clean":{
-            "dist":["dist"],
-            "process":["process"]
-        },
-        "watch":{
-            "files":[
-                "README.md",
-                "src/**/*.*",
-                "test/**/*.spec.js"
-            ],
-            "tasks":["test"],
-            "options":{
-                "livereload":true,
-                "atBegin":true
-            }
-        },
-        "concat":{
-            "options":{
-                "stripBanners":true,
-                "banner": "/*! <%= pkg.name %> - v<%= pkg.version %> - <%= grunt.template.today('dd/mm/yyyy') %> */",
-                "process":true
+		// Concatenar todos os arquivos de scripts do angular em um so arquivo.
+		concat: {
+			options: {
+				separator: '\n\n',
+			},
+			dist: {
+				src: [
+					'<%= app.source %>/_js/site.mod.js',
+					'<%= app.source %>/_js/controllers/**/*.js',
+					'<%= app.source %>/_js/directives/**/*.js',
+					'<%= app.source %>/_js/services/**/*.js',
+					'<%= app.source %>/_js/interceptors/**/*.js',
+					'<%= app.source %>/_js/filters/**/*.js'
+				],
+				dest: '<%= app.source %>/_js/build/site.app.js',
+			},
+		},
 
-            },
-            "app":{
-                "src":[
-                    "src/js/site_casamento.js",
-                    "src/js/**/!(site_casamento).js"
-                ],
-                "dest":"process/app.js"
-            },
-            "vendor":{
-                "src": jslink,
-                "dest":"dist/vendor.js"
-            }
-        },
-        "ngtemplates":{
-            "site_casamento":{
-                "cwd": "src/html/",
-                "src": ["**/*.html"],
-                "dest": "process/templates.js",
-                "options":{
-                    "htmlmin":{
-                        "collapseWhitespace":true
-                    }
-                }
-            }
-        },
-        "uglify":{
-            "options":{
-                "mangle":false,
-                "report":"min",
-                "wrap":true,
-                "compress":{
-                    "dead_code":true,
-                    "drop_debugger":true,
-                    "sequences":true,
-                    "properties":true,
-                    "comparisons":true,
-                    "evaluate":true,
-                    "booleans":true,
-                    "loops":true,
-                    "unused":true,
-                    "if_return":true,
-                    "join_vars":true,
-                    "cascade":true,
-                    "warnings":true
-                }
-            },
-            "app":{
-                "options":{
-                    "sourceMap":"dist/app.map",
-                    "sourceMappingURL":"app.map",
-                    "report":"gzip",
-                    "banner": "/*! <%= pkg.name %> - v<%= pkg.version %> - <%= grunt.template.today('yyyy-mm-dd') %> */"
-                },
-                "files":{
-                    "dist/app.js":[
-                        "process/app.js",
-                        "process/templates.js"
-                    ]
-                }
-            }
-        },
-        /*
-        "docular":{
-            "baseUrl":"http://127.0.0.1:9001/docs/",
-            "docAPIOrder":["site_casamento"],
-            "docular_webapp_target":"docs",
-            "groups":[
-                {
-                    "groupTitle":"site_casamento",
-                    "groupId":"site_casamento",
-                    "sections":[
-                        {
-                            "id":"site_casamento",
-                            "title": "site_casamento",
-                            "scripts":[
-                                "src/js/"
-                            ],
-                            "docs":[
-                                "README.md"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },*/
-        "copy":{
-            "maps":{
-                "files":[
-                    {
-                        "expand":true,
-                        "flatten": true,
-                        "src":[
-                            "src/html/index.html",
-                            "vendor/managed/**/*.map"
-                        ],
-                        "dest":"dist/",
-                        "filter":"isFile"
-                    }
-                ]
-            }
-        }
-    });
+		
 
-    for(i in pkg.devDependencies){ //iterate through the development dependencies
-        if(pkg.devDependencies.hasOwnProperty(i)){ //avoid iteration over inherited object members
-            if(i.substr(0,6) == 'grunt-'){ //only load development dependencies that being with "grunt-""
-                grunt.loadNpmTasks(i); //load all grunt tasks
-            }
-        }
-    }
-    grunt.registerTask('default',["concurrent"]);
+		// Anota os scripts do Angular, garantindo que a minificacao nao impossibilite a injecao de dependencias
+		ngAnnotate: {
+			options:{
+				singleQuotes: true
+			},
+			app: {
+				files: [{
+					expand: true,
+					src: ['<%= app.source %>/_js/build/site.app.js'],
+					dest: '.',
+					ext: '.annotated.js',
+					extDot: 'last'
+				}]
+			}
+		},
 
-    grunt.registerTask('test',[ 'clean:dist','jshint','karma:unit-pre','concat','strip','ngtemplates','uglify:app','cssmin',"copy:maps",                  'plato']);
-    grunt.registerTask('build',['clean:dist','jshint','karma:unit-pre','concat','strip','ngtemplates','uglify:app','cssmin',"copy:maps",'karma:unit-post','plato']);
-    grunt.registerTask('dist',[ 'clean:dist','jshint','karma:unit-pre','concat','strip','ngtemplates','uglify:app','cssmin',"copy:maps",'karma:unit-post','plato','bump']);
+		// Minifica os arquivos JS compilando-os em arquivos unicos
+		uglify : {
+			options : {
+				// permite que nomes de metodos e variaveis sejam trocadas para diminuir o tamanho
+				mangle : true
+			},
+
+			compilar_e_minificar : {
+				files : {
+					// Outros Scripts Gerais
+					//'<%= app.dist %>/js/mensagens.min.js' : [ '<%= app.source %>/_js/mensagens.js' ],
+					// Script Angular com todas os Controllers, Services, Directives, filters e interceptors da aplicação.
+					'<%= app.dist %>/js/site.app.min.js' : [ '<%= app.source %>/_js/build/site.app.annotated.js' ]
+				}
+			}
+		},
+
+		// Plugin para compilar todos os arquivos '.sass' em arquivos CSS, minificando-os.
+		sass : {
+			compilar_e_minificar : {
+				options : {
+					style : 'compressed'
+				},
+				files : {
+                    '<%= app.dist %>/css/main.min.css' : '<%= app.source %>/_sass/main.scss',
+                    '<%= app.dist %>/css/landing.min.css' : '<%= app.source %>/_sass/landing.scss'
+				}
+			}
+		},
+
+		//Copiar assets extras que não necessitam de processamento.
+		copy: {
+			css: {
+				files: [{
+					expand: true,
+					cwd: '<%= app.source %>/_css/',
+					src: ['**'],
+					dest: '<%= app.dist %>/css/',
+					filter: 'isFile'
+				}]
+			},
+			js: {
+				files: [{
+					expand: true,
+					cwd: '<%= app.source %>/_js/css-js-fixes/',
+					src: ['**'],
+					dest: '<%= app.dist %>/js/css-js-fixes/',
+					filter: 'isFile'
+				}]
+			},
+			angular_app_full: {
+				files: [{
+					expand: true,
+					cwd: '<%= app.source %>/_js/build/',
+					src: ['site.app.annotated.js'],
+					dest: '<%= app.dist %>/js/',
+					filter: 'isFile'
+				}]
+			}
+		},
+		
+		// Plugin cache busting. Altera o nome de assets e referencias a eles com o objetivo de evitar o cache de arquivos antigos
+		cachebreaker: {
+			dev: {
+				options: {
+					match: [
+						{   // Pattern    // File to hash 
+							'site.app.annotated.js': '<%= app.dist %>/js/site.app.annotated.js',
+							'site.app.min.js': '<%= app.dist %>/js/site.app.min.js',
+							//'mensagens.min.js': '<%= app.dist %>/js/mensagens.min.js',
+                            'main.min.css': '<%= app.dist %>/css/main.min.css',
+                            'landing.min.css': '<%= app.dist %>/css/landing.min.css'
+						}
+					],
+					replacement: 'md5'
+				},
+				files: {
+					src: [
+                        '<%= app.templates %>/header.tpl.php',
+                        '<%= app.templates %>/footer.tpl.php'
+					]
+				}
+			}
+		}
+		
+
+	});
+
+	// Carregamento dos Plugins do Grunt
+	grunt.loadNpmTasks('grunt-contrib-copy');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-contrib-concat');
+	grunt.loadNpmTasks('grunt-ng-annotate');
+	grunt.loadNpmTasks('grunt-cache-breaker');
+
+	// Tarefas que serão executadas
+	grunt.registerTask('default', ['jshint', 'concat', 'ngAnnotate', 'uglify', 'sass', 'copy', 'cachebreaker']);
+
 };

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,IAAK,CACD,UAAU,CAAE,uDAAuD,CACnE,uBAAuB,CAAE,KAAK,CAC9B,oBAAoB,CAAE,KAAK,CAC3B,kBAAkB,CAAE,KAAK,CACzB,eAAe,CAAE,KAAK",
+"sources": ["../../src/assets/_sass/landing.scss"],
+"names": [],
+"file": "landing.min.css"
+}

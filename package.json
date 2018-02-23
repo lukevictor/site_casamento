@@ -10,7 +10,23 @@
   "bugs": {
     "url": "https://github.com/felipeleao/site_casamento/issues"
   },
+  "main": "index.js",
+  "author": "Felipe Leao (felipe.leao)",
+  "private": true,
+  "dependencies": {},
   "devDependencies": {
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1",
+    "grunt-bower": "^0.21.4",
+    "grunt-cache-breaker": "^2.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^v1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ng-annotate": "^3.0.0"
   },
   "keywords": []
 }

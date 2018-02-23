@@ -1,0 +1,35 @@
+//***********************************
+//            CONSTANTES
+//***********************************
+
+// Atalhos de @media
+$oldSmartphone: "(max-width:480px)";
+$commonSmartphone: "(min-width: 481px) and (max-width: 767px)";
+$oldDesktop: "(min-width:768px) and (max-width: 1023px)";
+$smallDesktop: "(min-width:1024px) and (max-width: 1199px)";
+$commonDesktop: "(min-width:1200px) and (max-width: 1549px)";
+$bigDesktop: "(min-width:1550px) and (max-width: 1823px)";
+$hugeDesktop: "(min-width:1824px)";
+
+// Alias para múltiplos @media
+$smartphone: $oldSmartphone, $commonSmartphone;
+$desktop: $oldDesktop, $smallDesktop, $commonDesktop, $bigDesktop, $hugeDesktop;
+
+// Cores do bootstrap
+$gray-darker:       lighten(#000, 13.5%); // #222
+$gray-dark:         lighten(#000, 20%);   // #333
+$gray:              lighten(#000, 33.5%); // #555
+$gray-light:        lighten(#000, 46.7%); // #777
+$gray-light-soft:   lighten(#000, 86.5%); // #ddd
+$gray-lighter:      lighten(#000, 93.5%); // #eee
+$brand-primary: darken(#428bca, 6.5%); // #337ab7
+$brand-success: #5cb85c;
+$brand-info:    #5bc0de;
+$brand-warning: #f0ad4e;
+$brand-danger:  #d9534f;
+$brand-default: #666666;
+$brand-danger-darken:  darken($brand-danger, 6.5%);
+$brand-primary-darken: darken($brand-primary, 6.5%);
+$brand-success-darken: darken($brand-success, 6.5%);
+$brand-info-darken:    darken($brand-info, 6.5%);
+$brand-warning-darken: darken($brand-warning, 6.5%);

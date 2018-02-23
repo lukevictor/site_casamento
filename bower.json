@@ -1,7 +1,6 @@
 {
   "name": "site_casamento",
   "version": "1.0.0",
-  "main": "dist/site_casamento.min.js",
   "ignore": [
     "analytics",
     "node_modules",
@@ -11,9 +10,18 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "jquery": "~1.12.4",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "~3.3.7",
+    "bourbon": "^4.2.7",
     "angular": "^1.6.9",
+    "angular-i18n": "^1.6.3",
     "angular-bootstrap": "^2.5.0",
     "angular-animate": "^1.6.9",
-    "angular-sanitize": "^1.6.9"
+    "angular-sanitize": "^1.6.9",
+    "angularjs-dropdown-multiselect": "^1.11.8"
+  },
+  "resolutions": {
+    "angular": "^1.6.9"
   }
 }
