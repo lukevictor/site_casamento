@@ -1,12 +1,41 @@
 @charset "utf-8";
 @import "../../../third-party/bourbon/app/assets/stylesheets/bourbon";
 @import "media_constants";
+@import "modificacoes_bootstrap";
 
 
 html {
-    background: url(assets/images/bg.jpg) no-repeat center center fixed; 
+    background: url(../../assets/images/bg.jpg) no-repeat center center fixed; 
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+}
+
+body {
+    background-color: transparent;
+
+    // box-shadow: 0 0 500px rgba(0,0,0,0.9) inset;
+    box-shadow: 0 0 500px rgba(93, 60, 0, 0.8) inset;
+    &:after {
+        content: "";
+        // background: url(http://subtlepatterns.com/patterns/bo_play_pattern.png) repeat;
+        background-color: rgba(202,140,27,0.9);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        // z-index: -1;   
+        opacity : 0.2;
+    }
+}
+
+// #wrap {
+//     box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+//   }
+
+#footer {
+    background-color: rgba(0,0,0,.5);
+    color:#a5a5a5;
 }
