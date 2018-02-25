@@ -10,7 +10,8 @@
     <meta name="author" content="Felipe Leão">
     <meta name="robots" content="index,follow">
 
-    <link rel="icon" type="image/png" href="<?= IMAGES_ROOT; ?>/favicon.png">
+    <!-- <link rel="icon" type="image/png" href="<?= IMAGES_ROOT; ?>/favicon.png"> -->
+    <link rel="icon" href="<?= IMAGES_ROOT; ?>/favicon.ico">
 
     <title>Camilla &amp; Felipe</title>
 

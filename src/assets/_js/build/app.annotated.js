@@ -86,11 +86,11 @@ app.config(['$httpProvider', '$logProvider', '$injector', function ($httpProvide
 }]);
 
 /**
- * Controller Angular para a pagina Projeto
+ * Controller Angular para a pagina inicial.
  * 
  * @author felipe.leao
  */
-app.controller('LandingController', ['$scope', '$log', 'moment', function ($scope, $log, moment) {
+app.controller('LandingController', ['$scope', '$log', '$timeout', 'moment', function ($scope, $log, $timeout, moment) {
 
     $scope.dataAtual = moment();
     $scope.dataCasamento = moment("2018-08-11 19:30");
@@ -99,14 +99,7 @@ app.controller('LandingController', ['$scope', '$log', 'moment', function ($scop
      * Metodo de inicializacao da pagina
      */
     $scope.init = function(){
-        $scope.meses = $scope.dataCasamento.fromNow();
-        $scope.dias = $scope.dataCasamento.diff($scope.dataAtual, 'hours');
-        $scope.horas = $scope.dataCasamento.diff($scope.dataAtual, 'minutes');
-        $scope.minutos = $scope.dataCasamento.diff($scope.dataAtual, 'seconds');
-        $log.debug($scope.meses);
-        $log.debug($scope.dias);
-        $log.debug($scope.horas);
-        $log.debug($scope.minutos);
+        $timeout(function() { $scope.fadeIn = true;});
     };
 
     

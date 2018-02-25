@@ -4,9 +4,33 @@
 @import "modificacoes_bootstrap";
 
 
+
+
+
+@font-face {
+    font-family: 'Great Vibes'; 
+    src: url('../../assets/fonts/Great_Vibes.woff2');
+}
+
+@font-face {
+    font-family: 'Roboto'; 
+    src: url('../../assets/fonts/Roboto_normal.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto'; 
+    src: url('../../assets/fonts/Roboto_bold.woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
 html {
     // background: url(../../assets/images/bg_teste.jpg) no-repeat center center fixed; 
-    background: url(../../assets/images/bg.jpg) no-repeat center center fixed; 
+    // background: url(../../assets/images/bg.jpg) no-repeat center center fixed; 
+    // background: url(../../assets/images/foto_bg.jpg) no-repeat center center fixed; 
+    background: url(../../assets/images/bg_teste_2.jpg) no-repeat center center fixed; 
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -18,32 +42,154 @@ body {
 
     // box-shadow: 0 0 500px rgba(0,0,0,0.9) inset;
     box-shadow: 0 0 500px rgba(93, 60, 0, 0.8) inset;
-    &:after {
-        content: "";
-        // background: url(http://subtlepatterns.com/patterns/bo_play_pattern.png) repeat;
-        background-color: rgba(202,140,27,0.9);
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        position: absolute;
-        // z-index: -1;   
-        opacity : 0.2;
+    // &:after {
+    //     content: "";
+    //     background-color: rgba(202,140,27,0.9);
+    //     top: 0;
+    //     left: 0;
+    //     bottom: 0;
+    //     right: 0;
+    //     position: absolute;
+    //     opacity : 0.2;
+    // }
+}
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+
+    .navbar-brand {
+        font-family: 'Great Vibes', cursive;
+        font-size: 30px;
+        line-height: 65px;
+        .detalhe {
+            color: $rosa-principal;
+            font-size: 20px;
+        }
+    }
+
+    .navbar-header {
+        .navbar-toggle {
+            margin-top: 23px;
+        }
+    }
+
+    @media #{$desktop}{
+        .navbar-nav {
+            &>li {
+                border-top: 4px solid rgba(0,0,0,.0);
+                width: 100px;
+                font-weight: bold;
+
+                &>a {
+                    height: 86px;
+                    vertical-align: middle;
+                    display: table-cell;
+                    text-align: center;
+                    width: 100px;
+                }
+
+                &:hover {
+                    border-top: 4px solid $rosa-principal;
+                    color: $rosa-principal;
+                }
+            }
+        }
+        .nav>li>a {
+            position: relative;
+            display: block;
+            padding: 23px 10px;
+            display: table-cell;
+        }
     }
 }
 
-// #wrap {
-//     box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
-//   }
+
+
 
 #footer {
     background-color: rgba(0,0,0,.5);
     color:#a5a5a5;
 }
 
-div.countdown {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    vertical-align: middle;
+
+
+.conjuges {
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+    color: #fff;
+    margin-top: 75px;
+    
+    &>.conector {
+        text-align: center;
+        color: $rosa-principal;;
+    }
+
+    &>.noiva { text-align: right; }   
+    &>.noivo { text-align: left; }
+
+    @media #{$smartphone}{
+        font-size: 50px;
+
+        &>.noiva { text-align: center; }   
+        &>.noivo { text-align: center; }
+        &>.conector { font-size: 35px; margin-bottom: -10px;}
+    }
+    
+    
 }
+
+@media #{$desktop}{ .conjuges { margin-top: 120px;} }
+@media #{$bigDesktop}, #{$hugeDesktop}{ .conjuges { margin-top: 250px;} }
+
+.subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    @media #{$smartphone}{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}
+
+.countdown-unit {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: rgba(255,255,255,.3);
+    // border: 3px solid #39d4f0;
+    border: 3px solid $rosa-principal;
+    text-align: center;
+    color: #fff;
+    margin: 50px auto 0 auto;
+
+    &>.tempo {
+        font-size: 55px;
+        display: block;
+        margin-top: 15px;
+        text-shadow: 0px 0px 14px rgba(150, 150, 150, 1);
+    }
+
+    &>.unidade {
+        display: block;
+        font-size: 20px;
+    }
+
+    @media #{$smartphone}{
+        width: 65px;
+        height: 65px;
+
+        &>.tempo { font-size: 26px; margin-top: 10px; }
+        &>.unidade { font-size: 14px; margin-top: 20px; }
+    }
+}
+
+
+
+

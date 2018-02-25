@@ -12,6 +12,7 @@ $bigDesktop: "(min-width:1550px) and (max-width: 1823px)";
 $hugeDesktop: "(min-width:1824px)";
 
 // Alias para múltiplos @media
+// Usage: @media #{$smartphone} { // Estilos aqui... }
 $smartphone: $oldSmartphone, $commonSmartphone;
 $desktop: $oldDesktop, $smallDesktop, $commonDesktop, $bigDesktop, $hugeDesktop;
 
@@ -33,3 +34,9 @@ $brand-primary-darken: darken($brand-primary, 6.5%);
 $brand-success-darken: darken($brand-success, 6.5%);
 $brand-info-darken:    darken($brand-info, 6.5%);
 $brand-warning-darken: darken($brand-warning, 6.5%);
+
+
+
+
+// Cores Layout
+$rosa-principal:    rgb(216,115,133);
