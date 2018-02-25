@@ -116,7 +116,7 @@ app.factory("modalAPI", function($uibModal, $log, $interval, MODAL, mensagensAPI
 // Servico exclusivo para mensagem de loading
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-simulador.factory("modalCarregamentoAPI", function($q, $http, $uibModal, $log, $interval, MODAL){
+app.factory("modalCarregamentoAPI", function($q, $http, $uibModal, $log, $interval, MODAL){
 	// Variaveis utilizadas somente para o caso de um modal de carregamento ser aberto
 	var modalCarregamento;
 

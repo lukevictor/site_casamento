@@ -6,7 +6,7 @@
  * @author felipe.leao
  */
 
-var app = angular.module('app', ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'angularjs-dropdown-multiselect']);
+var app = angular.module('app', ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'timer', 'angularMoment', 'angularjs-dropdown-multiselect']);
 
 
 // app.constant("MODAL", {
@@ -25,6 +25,10 @@ var app = angular.module('app', ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'ang
 // 	"NAO_PREENCHIDO": "NAO_PREENCHIDO",
 // 	"INCOMPLETO": "INCOMPLETO"
 // });
+
+app.run(function(amMoment){
+	amMoment.changeLocale('pt-br');
+});
 
 /**
  * Chamada de funcao para configuracao de parametreos iniciais utilizados pelo Angular, 

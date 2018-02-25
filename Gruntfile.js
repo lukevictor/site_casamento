@@ -30,14 +30,14 @@ module.exports = function(grunt) {
 			},
 			dist: {
 				src: [
-					'<%= app.source %>/_js/site.mod.js',
+					'<%= app.source %>/_js/app.mod.js',
 					'<%= app.source %>/_js/controllers/**/*.js',
 					'<%= app.source %>/_js/directives/**/*.js',
 					'<%= app.source %>/_js/services/**/*.js',
 					'<%= app.source %>/_js/interceptors/**/*.js',
 					'<%= app.source %>/_js/filters/**/*.js'
 				],
-				dest: '<%= app.source %>/_js/build/site.app.js',
+				dest: '<%= app.source %>/_js/build/app.js',
 			},
 		},
 
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 			app: {
 				files: [{
 					expand: true,
-					src: ['<%= app.source %>/_js/build/site.app.js'],
+					src: ['<%= app.source %>/_js/build/app.js'],
 					dest: '.',
 					ext: '.annotated.js',
 					extDot: 'last'
@@ -71,7 +71,7 @@ module.exports = function(grunt) {
 					// Outros Scripts Gerais
 					//'<%= app.dist %>/js/mensagens.min.js' : [ '<%= app.source %>/_js/mensagens.js' ],
 					// Script Angular com todas os Controllers, Services, Directives, filters e interceptors da aplicação.
-					'<%= app.dist %>/js/site.app.min.js' : [ '<%= app.source %>/_js/build/site.app.annotated.js' ]
+					'<%= app.dist %>/js/app.min.js' : [ '<%= app.source %>/_js/build/app.annotated.js' ]
 				}
 			}
 		},
@@ -113,7 +113,7 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 					cwd: '<%= app.source %>/_js/build/',
-					src: ['site.app.annotated.js'],
+					src: ['app.annotated.js'],
 					dest: '<%= app.dist %>/js/',
 					filter: 'isFile'
 				}]
@@ -126,8 +126,8 @@ module.exports = function(grunt) {
 				options: {
 					match: [
 						{   // Pattern    // File to hash 
-							'site.app.annotated.js': '<%= app.dist %>/js/site.app.annotated.js',
-							'site.app.min.js': '<%= app.dist %>/js/site.app.min.js',
+							'app.annotated.js': '<%= app.dist %>/js/app.annotated.js',
+							'app.min.js': '<%= app.dist %>/js/app.min.js',
 							//'mensagens.min.js': '<%= app.dist %>/js/mensagens.min.js',
                             'main.min.css': '<%= app.dist %>/css/main.min.css',
                             'landing.min.css': '<%= app.dist %>/css/landing.min.css'

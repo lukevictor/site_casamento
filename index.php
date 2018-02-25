@@ -7,13 +7,18 @@
 		include_once("template/header.tpl.php");
     ?>
 
-<body>
+<body ng-app="app" ng-controller="LandingController" ng-init="init()">
 	<?php
 		include_once("template/body_begin.tpl.php");
 	?>
 
 	<div class="vignette">
-		<p>Meu conteúdo aqui!!!</p>
+		<div class="countdown">
+		<timer end-time="dataCasamento">{{ddays}} dia{{daysS}}</timer>
+		<timer end-time="dataCasamento">{{hhours}} hora{{hoursS}}</timer>
+		<timer end-time="dataCasamento">{{mminutes}} minuto{{minutesS}}</timer>
+		<timer end-time="dataCasamento">{{sseconds}} segundo{{secondsS}}</timer>
+		</div>
 	</div>
 
 	<?php
