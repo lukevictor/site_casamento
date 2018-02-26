@@ -57,6 +57,13 @@ body {
 .navbar {
     font-family: 'Roboto', sans-serif;
 
+    @media #{$oldDesktop}{
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
     .navbar-brand {
         font-family: 'Great Vibes', cursive;
         font-size: 30px;
@@ -80,6 +87,11 @@ body {
                 width: 100px;
                 font-weight: bold;
 
+                @media #{$oldDesktop}{
+                    font-size: 12px;
+                    width: 75px;
+                }
+
                 &>a {
                     height: 86px;
                     vertical-align: middle;
@@ -99,6 +111,11 @@ body {
             display: block;
             padding: 23px 10px;
             display: table-cell;
+
+            @media #{$oldDesktop}{
+                padding: 14px 0px;
+                width: 50px;
+            }
         }
     }
 }
@@ -115,7 +132,7 @@ body {
 
 .conjuges {
     font-family: 'Great Vibes', cursive;
-    font-size: 70px;
+    font-size: 60px;
     color: #fff;
     margin-top: 75px;
     
@@ -127,19 +144,17 @@ body {
     &>.noiva { text-align: right; }   
     &>.noivo { text-align: left; }
 
-    @media #{$smartphone}{
+    @media #{$smartphone}, #{$oldDesktop}{
         font-size: 50px;
 
         &>.noiva { text-align: center; }   
         &>.noivo { text-align: center; }
         &>.conector { font-size: 35px; margin-bottom: -10px;}
     }
-    
-    
 }
 
 @media #{$desktop}{ .conjuges { margin-top: 120px;} }
-@media #{$bigDesktop}, #{$hugeDesktop}{ .conjuges { margin-top: 250px;} }
+@media #{$bigDesktop}, #{$hugeDesktop}{ .conjuges { font-size: 80px; margin-top: 250px;} }
 
 .subtitulo {
     font-family: 'Roboto', sans-serif;
