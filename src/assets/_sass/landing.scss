@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import "../../../third-party/bourbon/app/assets/stylesheets/bourbon";
+@import "media_constants";
+@import "modificacoes_bootstrap";
+
+
+
+
+
+@font-face {
+    font-family: 'Great Vibes'; 
+    src: url('../../assets/fonts/Great_Vibes.woff2');
+}
+
+@font-face {
+    font-family: 'Roboto'; 
+    src: url('../../assets/fonts/Roboto_normal.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto'; 
+    src: url('../../assets/fonts/Roboto_bold.woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+html {
+    // background: url(../../assets/images/bg_teste.jpg) no-repeat center center fixed; 
+    // background: url(../../assets/images/bg.jpg) no-repeat center center fixed; 
+    // background: url(../../assets/images/foto_bg.jpg) no-repeat center center fixed; 
+    background: url(../../assets/images/bg_teste_2.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+body {
+    background-color: transparent;
+
+    // box-shadow: 0 0 500px rgba(0,0,0,0.9) inset;
+    box-shadow: 0 0 500px rgba(93, 60, 0, 0.8) inset;
+    // &:after {
+    //     content: "";
+    //     background-color: rgba(202,140,27,0.9);
+    //     top: 0;
+    //     left: 0;
+    //     bottom: 0;
+    //     right: 0;
+    //     position: absolute;
+    //     opacity : 0.2;
+    // }
+}
+
+
+
+
+
+
+#footer {
+    background-color: rgba(0,0,0,.5);
+    color:#a5a5a5;
+}
+
+
+
+.conjuges {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    color: #fff;
+    margin-top: 75px;
+    
+    &>.conector {
+        text-align: center;
+        color: $rosa-principal;;
+    }
+
+    &>.noiva { text-align: right; }   
+    &>.noivo { text-align: left; }
+
+    @media #{$oldDesktop}{
+        font-size: 50px;
+    }
+
+    @media #{$smartphone} {
+        font-size: 50px;
+
+        &>.noiva { text-align: center; }   
+        &>.noivo { text-align: center; }
+        &>.conector { font-size: 35px; margin-bottom: -10px;}
+    }
+}
+
+@media #{$desktop}{ .conjuges { margin-top: 120px;} }
+@media #{$bigDesktop}, #{$hugeDesktop}{ .conjuges { font-size: 80px; margin-top: 250px;} }
+
+.subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    @media #{$smartphone}{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}
+
+.countdown-unit {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: rgba(255,255,255,.3);
+    border: 3px solid $rosa-principal;
+    text-align: center;
+    color: #fff;
+    margin: 50px auto 0 auto;
+
+    &>.tempo {
+        font-size: 55px;
+        display: block;
+        margin-top: 15px;
+        text-shadow: 0px 0px 14px rgba(150, 150, 150, 1);
+    }
+
+    &>.unidade {
+        display: block;
+        font-size: 20px;
+    }
+
+    @media #{$oldDesktop}{
+        width: 120px;
+        height: 120px;
+
+        &>.tempo { font-size: 40px; margin-top: 10px; }
+        &>.unidade { font-size: 14px; }
+    }
+
+    @media #{$smartphone}{
+        width: 65px;
+        height: 65px;
+
+        &>.tempo { font-size: 26px; margin-top: 10px; }
+        &>.unidade { font-size: 14px; margin-top: 20px; }
+    }
+}
+
+  
+.animate-if.ng-enter, .animate-if.ng-leave {
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+}
+  
+.animate-if.ng-enter,
+.animate-if.ng-leave.ng-leave-active {
+    opacity:0;
+}
+  
+.animate-if.ng-leave,
+.animate-if.ng-enter.ng-enter-active {
+    opacity:1;
+}

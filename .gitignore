@@ -1,0 +1,8 @@
+.idea
+node_modules
+vendor
+docs
+analytics
+third-party
+.sass-cache
+src/assets/_js/build

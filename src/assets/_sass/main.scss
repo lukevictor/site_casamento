@@ -1,0 +1,12 @@
+@charset "utf-8";
+@import "../../../third-party/bourbon/app/assets/stylesheets/bourbon";
+@import "media_constants";
+
+
+html{
+    height: 100%;
+}
+
+body {
+	min-height: 100%;
+}
