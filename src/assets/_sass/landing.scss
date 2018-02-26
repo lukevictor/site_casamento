@@ -58,71 +58,7 @@ body {
     // }
 }
 
-.navbar {
-    font-family: 'Roboto', sans-serif;
 
-    @media #{$oldDesktop}{
-        .container {
-            padding-left: 0;
-            padding-right: 0;
-        }
-    }
-
-    .navbar-brand {
-        font-family: 'Great Vibes', cursive;
-        font-size: 30px;
-        line-height: 65px;
-        .detalhe {
-            color: $rosa-principal;
-            font-size: 20px;
-        }
-    }
-
-    .navbar-header {
-        .navbar-toggle {
-            margin-top: 23px;
-        }
-    }
-
-    @media #{$desktop}{
-        .navbar-nav {
-            &>li {
-                border-top: 4px solid rgba(0,0,0,.0);
-                width: 100px;
-                font-weight: bold;
-
-                @media #{$oldDesktop}{
-                    font-size: 12px;
-                    width: 75px;
-                }
-
-                &>a {
-                    height: 86px;
-                    vertical-align: middle;
-                    display: table-cell;
-                    text-align: center;
-                    width: 100px;
-                }
-
-                &:hover {
-                    border-top: 4px solid $rosa-principal;
-                    color: $rosa-principal;
-                }
-            }
-        }
-        .nav>li>a {
-            position: relative;
-            display: block;
-            padding: 23px 10px;
-            display: table-cell;
-
-            @media #{$oldDesktop}{
-                padding: 14px 0px;
-                width: 50px;
-            }
-        }
-    }
-}
 
 
 
