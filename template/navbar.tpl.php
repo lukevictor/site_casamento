@@ -12,11 +12,11 @@
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="<?= APPLICATION_ROOT; ?>/">In&iacute;cio</a></li>
-							<li><a href="<?= APPLICATION_ROOT; ?>/noivos/">Os Noivos</a></li>
-							<li><a href="<?= APPLICATION_ROOT; ?>/padrinhos/">Padrinhos e Madrinhas</a></li>
-							<li><a href="<?= APPLICATION_ROOT; ?>/cerimonia/">Cerim&ocirc;nia e Recep&ccedil;&atilde;o</a></li>
-							<li><a href="<?= APPLICATION_ROOT; ?>/traje/">Traje</a></li>
-							<li><a href="<?= APPLICATION_ROOT; ?>/confirmacao/">Confirma&ccedil;&atilde;o de Presen&ccedil;a</a></li>
+							<li><a href="<?= APPLICATION_ROOT; ?>/noivos">Os Noivos</a></li>
+							<li><a href="<?= APPLICATION_ROOT; ?>/padrinhos">Padrinhos e Madrinhas</a></li>
+							<li><a href="<?= APPLICATION_ROOT; ?>/cerimonia">Cerim&ocirc;nia e Recep&ccedil;&atilde;o</a></li>
+							<li><a href="<?= APPLICATION_ROOT; ?>/traje">Traje</a></li>
+							<li><a href="<?= APPLICATION_ROOT; ?>/confirmacao">Confirma&ccedil;&atilde;o de Presen&ccedil;a</a></li>
 							<li><a href="<?= APPLICATION_ROOT; ?>/presentes">Lista de Presentes</a></li>
 						</ul>
 					</div><!--/.nav-collapse -->
