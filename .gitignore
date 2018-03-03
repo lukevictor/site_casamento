@@ -1,7 +1,5 @@
-.idea
 node_modules
-vendor
-docs
+third-party
 analytics
 third-party
 .sass-cache
