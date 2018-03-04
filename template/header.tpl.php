@@ -20,12 +20,12 @@
 
     <!-- Estilos especificos -->
     <?php 
-    	if(defined('TEMPLATE_ESTILO')){
-        	include_once(TEMPLATE_ESTILO); 
-      	}else{
-			echo '<link href="' . CSS_ROOT . '/main.min.css?rel=0879284d33" rel="stylesheet">';
-			echo '<link href="' . CSS_ROOT . '/sticky_footer.css" rel="stylesheet">';
-		}
+        if(defined('TEMPLATE_ESTILO')){
+          	include_once(TEMPLATE_ESTILO); 
+        }else{
+			      echo '<link href="' . CSS_ROOT . '/sticky_footer.css" rel="stylesheet">';
+            echo '<link href="' . CSS_ROOT . '/main.min.css?rel=929b708116" rel="stylesheet">';
+		    }
     ?>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

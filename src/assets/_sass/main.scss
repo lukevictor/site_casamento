@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "../../../third-party/bourbon/app/assets/stylesheets/bourbon";
 @import "media_constants";
+@import "modificacoes_bootstrap";
 
 
 html{
@@ -9,4 +10,43 @@ html{
 
 body {
 	min-height: 100%;
+}
+
+
+div.topo {
+    // background-size: cover;
+    margin-top: -20px;
+    height: 200px;
+
+    .titulo {
+        font-family: 'Great Vibes';
+        font-size: 5em;
+        text-align: center;
+        margin-top: 40px;
+        color: #fff;
+    }
+
+    &.noivos {
+        background: url(../../assets/images/bg.jpg) no-repeat center center fixed; 
+    }
+}
+
+section {
+    p {
+        text-indent: 40px;
+        font-size: 16px;
+    }
+}
+
+img{
+    max-width: 250px;
+    height: auto;
+}
+
+#footer {
+    background-color: $gray-dark;
+    color:#a5a5a5;
+     .detalhe {
+         color: $rosa-principal;
+     }
 }
