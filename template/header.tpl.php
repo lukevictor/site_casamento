@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-language" content="en">
+    <meta http-equiv="content-language" content="pt-br">
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Camilla e Felipe vão subir no altar em 2018! Aqui você encontra todas as informações sobre o grande dia dos dois.">
@@ -24,7 +24,7 @@
           	include_once(TEMPLATE_ESTILO); 
         }else{
 			      echo '<link href="' . CSS_ROOT . '/sticky_footer.css" rel="stylesheet">';
-            echo '<link href="' . CSS_ROOT . '/main.min.css?rel=929b708116" rel="stylesheet">';
+            echo '<link href="' . CSS_ROOT . '/main.min.css?rel=627ef7c1f5" rel="stylesheet">';
 		    }
     ?>
 

@@ -1,9 +1,8 @@
 @charset "utf-8";
+$output-bourbon-deprecation-warnings: false !default;
 @import "../../../third-party/bourbon/app/assets/stylesheets/bourbon";
 @import "media_constants";
 @import "modificacoes_bootstrap";
-
-
 
 
 
@@ -25,23 +24,7 @@ body {
 
     // box-shadow: 0 0 500px rgba(0,0,0,0.9) inset;
     box-shadow: 0 0 500px rgba(93, 60, 0, 0.8) inset;
-    // &:after {
-    //     content: "";
-    //     background-color: rgba(202,140,27,0.9);
-    //     top: 0;
-    //     left: 0;
-    //     bottom: 0;
-    //     right: 0;
-    //     position: absolute;
-    //     opacity : 0.2;
-    // }
 }
-
-
-
-
-
-
 
 
 
@@ -134,7 +117,7 @@ body {
 
   
 .animate-if.ng-enter, .animate-if.ng-leave {
-    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    @include transition (all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s);
 }
   
 .animate-if.ng-enter,

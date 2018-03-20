@@ -22,6 +22,24 @@
 }
 
 
+.container {
+    &.principal {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.navbar-default {
+    background: url(../../assets/images/main_back.jpg) repeat;
+}
+
+.navbar-collapse, .navbar-form {
+    @media #{$smartphone} {
+        border-color: $gray-light-soft;
+        background-color: rgba(255,255,255,.5);
+    }
+}
+
 .navbar {
     font-family: 'Roboto', sans-serif;
     min-height: 80px;
@@ -36,8 +54,10 @@
     .navbar-brand {
         height: 80px;
         font-family: 'Great Vibes', cursive;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 65px;
+        color: $dourado-principal;
+        &:hover{ color: $dourado-principal;}
         .detalhe {
             color: $rosa-principal;
             font-size: 20px;
@@ -56,6 +76,7 @@
                 border-top: 4px solid rgba(0,0,0,.0);
                 width: 100px;
                 font-weight: bold;
+                @include transition (all 0.3s ease-in-out);
 
                 @media #{$oldDesktop}{
                     font-size: 12px;
@@ -68,11 +89,14 @@
                     display: table-cell;
                     text-align: center;
                     width: 100px;
+                    color: $dourado-escuro;
+                    &:hover{ color: $dourado-escuro; }
                 }
 
                 &:hover {
                     border-top: 4px solid $rosa-principal;
                     color: $rosa-principal;
+                    background-color: rgba(243, 231, 219, 0.5);
                 }
             }
         }
@@ -87,5 +111,16 @@
                 width: 50px;
             }
         }
+    }
+}
+
+.img-responsive {
+    &.center {
+        margin: 0 auto;
+    }
+    &.separador {
+        width: 188px;
+        height: 25px;
+        margin: 25px auto;
     }
 }

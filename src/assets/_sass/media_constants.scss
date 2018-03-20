@@ -39,4 +39,10 @@ $brand-warning-darken: darken($brand-warning, 6.5%);
 
 
 // Cores Layout
-$rosa-principal:    rgb(216,115,133);
+$rosa-principal:        rgb(216,115,133);
+$dourado-principal-r:   191;
+$dourado-principal-g:   173;
+$dourado-principal-b:   153;
+$dourado-principal:     rgb($dourado-principal-r, $dourado-principal-g, $dourado-principal-b);
+$dourado-escuro:        rgb(167, 149, 129);
+
