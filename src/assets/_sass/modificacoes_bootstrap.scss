@@ -43,6 +43,8 @@
 .navbar {
     font-family: 'Roboto', sans-serif;
     min-height: 80px;
+    border-top: 2px dashed $dourado-principal;
+    // border-bottom: 2px dashed $dourado-principal;
 
     @media #{$oldDesktop}{
         .container {
