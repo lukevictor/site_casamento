@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-md-8">
                     <h1>Fast Shop</h1>
-                    <p>Loja de eletrônicos</p>
+                    <p>Loja de eletrônicos e eletrodomésticos. Caso prefira uma loja física é possível encontrá-las em diversos shoppings na cidade do Rio de Janeiro.</p>
                     <p><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<a href="#">Link direto para a lista</a></p>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-md-8">
                     <h1>Etna</h1>
-                    <p>Loja móveis utensílios e decoração</p>
+                    <p>Loja móveis utensílios domésticos, decoração, etc. No Rio de Janeiro a Etna possúi unidade física apenas na Barra da Tijuca (Av. Ayrton Senna, 3437)</p>
                     <p><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<a href="#">Link direto para a lista</a></p>
                 </div>
             </div>
