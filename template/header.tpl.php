@@ -24,7 +24,7 @@
           	include_once(TEMPLATE_ESTILO); 
         }else{
 			      echo '<link href="' . CSS_ROOT . '/sticky_footer.css" rel="stylesheet">';
-            echo '<link href="' . CSS_ROOT . '/main.min.css?rel=3f02331f71" rel="stylesheet">';
+            echo '<link href="' . CSS_ROOT . '/main.min.css?rel=07ba5da245" rel="stylesheet">';
 		    }
     ?>
 

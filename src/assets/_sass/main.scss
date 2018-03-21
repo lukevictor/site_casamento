@@ -41,9 +41,9 @@ div.topo {
         }
     }
 
-    &.noivos {
-        background: url(../../assets/images/bg_teste_croped.jpg) no-repeat center center; 
-    }
+    &.noivos { background: url(../../assets/images/bg_teste_croped.jpg) no-repeat center center;  }
+    &.presentes { background: url(../../assets/images/presentes_croped.jpg) no-repeat center center;  }
+
 }
 
 section {
@@ -132,6 +132,29 @@ h1 {
 
 
 
+
+
+.row {
+    &.card-loja {
+        background-color: $gray-lighter;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid $gray-lighter;
+
+        h1{
+            text-align: left;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        p{
+            text-align: left;
+        }
+    }
+}
 
 
 

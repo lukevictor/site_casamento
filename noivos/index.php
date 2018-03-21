@@ -9,16 +9,7 @@
     	<!-- Static navbar -->
     	<?php include_once("../template/navbar.tpl.php");?>
 
-        <div class="topo noivos">
-            <!-- <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="titulo">Os Noivos</div>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-
+        <div class="topo noivos"></div>
     	<div class="container principal">
 
             <div class="row">
