@@ -136,12 +136,12 @@ h1 {
 
 .row {
     &.card-loja {
-        background-color: $gray-lighter;
+        background-color: $amarelo-medio;
         border-radius: 5px;
         margin-bottom: 15px;
         margin-left: 5px;
         margin-right: 5px;
-        border: 1px solid $gray-lighter;
+        border: 1px solid $amarelo-medio;
 
         h1{
             text-align: left;
@@ -153,7 +153,47 @@ h1 {
         p{
             text-align: left;
         }
+
+        img {
+            width: 250px;
+            height: auto;
+        }
     }
+
+    div.card-banco {
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 1px solid $gray-lighter;
+        padding: 0 10px;
+        margin: 0 auto;
+        box-shadow: 0 0px 25px rgba(0,0,0,.10);
+
+        @media #{$smartphone}{
+            margin-bottom: 10px;
+            max-width: 300px;
+        }
+        
+        div.logo {
+            text-align: center;
+            height: 100px;
+
+            &:before {
+                content: '';
+                height: 100%;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            img {
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+
+        dd {
+            margin-left: 15px;
+        }
+    }
+
 }
 
 
