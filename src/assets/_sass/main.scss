@@ -43,6 +43,7 @@ div.topo {
 
     &.noivos { background: url(../../assets/images/bg_teste_croped.jpg) no-repeat center center;  }
     &.presentes { background: url(../../assets/images/presentes_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 400px;  }
+    &.confirmacao { background: url(../../assets/images/convite_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 400px; }
 
 }
 
@@ -157,6 +158,46 @@ h1 {
         img {
             width: 250px;
             height: auto;
+        }
+    }
+
+    &.form-presenca {
+        margin-top: 10px;
+
+        .well { background-color: $amarelo-claro; }
+
+        .btn-radio {
+            @media #{$desktop} {
+                width: 250px;
+                text-align: center;
+            }
+
+            & > input[type=radio] {
+                position: absolute;
+                clip: rect(0, 0, 0, 0);
+                pointer-events: none;
+            }
+        }
+
+        .submit {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .centralizado {
+            display: table;
+            margin: 0 auto;
+        }
+
+        .acompanhantes {
+            margin-bottom: 20px;
+            &.well { background-color: #eee; }
+            fieldset { 
+                legend {
+                    font-size: 16px;
+                }
+            }
+            
         }
     }
 
