@@ -116,6 +116,11 @@ app.controller('FormularioPresencaController', function ($scope, $log) {
         $scope.formulario.acompanhantes.splice($scope.formulario.acompanhantes.indexOf(ac),1);
     };
 
+    $scope.enviar = function(){
+        //TODO validar o formulario e enviar por ajax
+        //TODO Enquanto o envio estiver ocorrendo, mostrar loading
+        //TODO Ao fim da chamada ajax, exibir mensagem de sucesso.
+    };
 
 });
 

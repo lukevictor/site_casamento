@@ -47,7 +47,7 @@
                             <div class="col-sm-9">
                                 <div class="input-group">
                                     <span class="input-group-addon" id="convidado-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
-                                    <input type="text" class="form-control" id="convidado" ng-model="formulario.convidado">
+                                    <input type="text" class="form-control" id="convidado" ng-model="formulario.convidado" autocomplete='name'>
                                 </div>
                             </div>
                         </div>
@@ -56,40 +56,44 @@
                             <div class="col-sm-9">
                                 <div class="input-group">
                                     <span class="input-group-addon" id="convidado-addon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
-                                    <input type="email" class="form-control" id="email" ng-model="formulario.email">
+                                    <input type="email" class="form-control" id="email" ng-model="formulario.email" autocomplete='email'>
                                 </div>
                             </div>
                         </div>
                         <div class="btn-group centralizado">
-                            <label for="sim" class="btn btn-radio btn-default btn-md" ng-class="{'active': formulario.comparecimento == 'sim'}">
-                                <input type="radio" name="comparecimento" value="sim" ng-model="formulario.comparecimento" id="sim" autocomplete="off"><span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>&nbsp;SIM, comparecerei!
+                            <label for="sim" class="btn btn-radio btn-default" ng-class="{'active': formulario.comparecimento == 'sim'}">
+                                <input type="radio" name="comparecimento" value="sim" ng-model="formulario.comparecimento" id="sim" autocomplete="off"><span class="text-success"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;SIM, comparecerei!</span>
                             </label>
                             <label for="nao" class="btn btn-radio btn-default" ng-class="{'active': formulario.comparecimento == 'nao'}">
-                                <input type="radio" name="comparecimento" value="nao" ng-model="formulario.comparecimento" id="nao" autocomplete="off"><span class="glyphicon glyphicon-remove text-danger" aria-hidden="true"></span>&nbsp;NÃO poderei ir
+                                <input type="radio" name="comparecimento" value="nao" ng-model="formulario.comparecimento" id="nao" autocomplete="off"><span class="text-danger"><span class="glyphicon glyphicon-remove text-danger" aria-hidden="true"></span>&nbsp;NÃO poderei ir</span>
                             </label>
                         </div>
                         <hr ng-hide="formulario.comparecimento == 'nao'" />
                         <div class="row acompanhantes" ng-hide="formulario.comparecimento == 'nao'">
                             <div class="col-md-10 col-md-offset-1">
-                                <fieldset>
-                                    <legend>Acompanhantes</legend>
-                                    <div class="form-group" ng-repeat="ac in formulario.acompanhantes | orderBy:ordem">
-                                        <label  class="col-sm-2 control-label">Nome</label>
-                                        <div class="col-sm-10">
-                                            <div class="input-group input-group-sm">
-                                                <input type="text" class="form-control" ng-model="ac.nome">
-                                                <span class="input-group-btn">
-                                                    <button class="btn btn-danger" type="button" ng-click="removerAcompanhante(ac)"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
-                                                </span>
+                                <div class="panel panel-warning">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Acompanhantes</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="form-group" ng-repeat="ac in formulario.acompanhantes | orderBy:ordem">
+                                            <label  class="col-sm-2 control-label">Nome</label>
+                                            <div class="col-sm-10">
+                                                <div class="input-group input-group-sm">
+                                                    <input type="text" class="form-control" ng-model="ac.nome" autocomplete='off'>
+                                                    <span class="input-group-btn">
+                                                        <button class="btn btn-danger" type="button" ng-click="removerAcompanhante(ac)"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12" style="text-align:center;">
+                                                <a href="#" class="btn btn-default btn-xs" onclick="return false;" ng-click="adicionarAcompanhante()"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Adicionar novo</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-12" style="text-align:center;">
-                                            <a href="#" class="btn btn-block btn-default btn-xs" onclick="return false;" ng-click="adicionarAcompanhante()"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Adicionar novo</a>
-                                        </div>
-                                    </div>
-                                </fieldset>
+                                </div>
                             </div>
                         </div>
                         
