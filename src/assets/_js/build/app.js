@@ -90,7 +90,7 @@ app.config(function ($httpProvider, $logProvider, $injector) {
  * 
  * @author felipe.leao
  */
-app.controller('FormularioPresencaController', function ($scope, $log) {
+app.controller('FormularioPresencaController', function ($scope, $log, formularioPresencaAPI) {
 
     $scope.ordemAcompanhante = 0;
     $scope.formulario = {
@@ -120,6 +120,7 @@ app.controller('FormularioPresencaController', function ($scope, $log) {
         //TODO validar o formulario e enviar por ajax
         //TODO Enquanto o envio estiver ocorrendo, mostrar loading
         //TODO Ao fim da chamada ajax, exibir mensagem de sucesso.
+        formularioPresencaAPI.enviarConfirmacao($scope.formulario);
     };
 
 });
@@ -155,6 +156,24 @@ app.controller('LandingController', function ($scope, $log, $timeout, moment) {
 });
 
 
+
+/**
+ * API de servico para atender a pagina de confirmacao de presenca.
+ * 
+ * @author felipeleao
+ */
+app.factory("formularioPresencaAPI", function ($http, $log) {
+
+    var _enviarConfirmacao = function (formulario) {
+        $log.debug("Invocando o envio de confirmacao.");
+		return $http.post("confirmar.php", formulario);
+    };
+
+
+    return {
+        enviarConfirmacao: _enviarConfirmacao
+    };
+});
 
 app.factory("mensagensAPI", function(){
 	

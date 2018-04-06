@@ -17,4 +17,4 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/humanize-duration/3.12.1/humanize-duration.min.js"></script>
 		<script type="text/javascript" src="<?= THIRD_PARTY_ROOT; ?>/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 		<script type="text/javascript" src="<?= THIRD_PARTY_ROOT; ?>/angularjs-dropdown-multiselect/dist/angularjs-dropdown-multiselect.min.js"></script>
-    <script type="text/javascript" src="<?= JS_ROOT; ?>/app.annotated.js?rel=f8419150ed"></script>
+    <script type="text/javascript" src="<?= JS_ROOT; ?>/app.annotated.js?rel=e052fbfc1b"></script>

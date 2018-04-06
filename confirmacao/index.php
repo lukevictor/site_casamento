@@ -41,7 +41,7 @@
 
             <div class="row form-presenca">
                 <div class="col-md-8 col-md-offset-2 well">
-                    <form class="form-horizontal">
+                    <form class="form-horizontal" no-validate>
                         <div class="form-group form-group-lg">
                             <label for="convidado" class="col-sm-3 control-label">Convidado</label>
                             <div class="col-sm-9">
