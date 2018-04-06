@@ -10,6 +10,7 @@
 
     // Processa a requisicao feita via POST
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        sleep(1);
         // Realiza o decode dos dados recebidos via JSON.
         $data = json_decode(file_get_contents('php://input'), true);
 
@@ -55,11 +56,7 @@
             );
             
         } catch (Exception $e) {
-            echo json_encode(
-                array(
-                    'message'=>'Message could not be sent. Mailer Error: '. $mail->ErrorInfo
-                )
-            );
+            throw new Exception("Erro ao enviar email de confirmacao.". $mail->ErrorInfo);
         }
 
 

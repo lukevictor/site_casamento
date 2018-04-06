@@ -164,7 +164,17 @@ h1 {
     &.form-presenca {
         margin-top: 10px;
 
-        .well { background-color: $amarelo-claro; }
+        label {font-family: 'Roboto', sans-serif;}
+
+        .well { 
+            background-color: $amarelo-claro; 
+            &.well-success { background-color: $brand-success-lighten; border: 1px solid $brand-success; }
+            &.well-danger { background-color: $brand-danger-lighten; border: 1px solid $brand-danger; }
+            h2 { 
+                font-family: 'Roboto', sans-serif;
+                margin-bottom: 20px; 
+            }
+        }
 
         .btn-radio {
             @media #{$desktop} {
@@ -193,6 +203,13 @@ h1 {
             // margin-bottom: 20px;
             // &.well { background-color: #eee; }
             .btn-default { background-color: $gray-lighter }
+        }
+
+        .form-group {
+            &.wrapper.has-error {
+                border: 1px solid $brand-danger;
+                border-radius: 4px;
+            }
         }
 
     }

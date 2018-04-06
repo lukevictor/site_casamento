@@ -38,29 +38,33 @@
                     </section>
                 </div>
             </div>
-
+            
             <div class="row form-presenca">
-                <div class="col-md-8 col-md-offset-2 well">
-                    <form class="form-horizontal" no-validate>
-                        <div class="form-group form-group-lg">
+                
+                <!-- FORMULARIO -->
+                <div class="col-md-8 col-md-offset-2 well" ng-hide="loading || exibirMensagemSucesso || exibirMensagemErro">
+                    <form class="form-horizontal" novalidate>
+                        <div class="form-group form-group-lg" ng-class="{'has-error' : erros.convidado}">
                             <label for="convidado" class="col-sm-3 control-label">Convidado</label>
                             <div class="col-sm-9">
                                 <div class="input-group">
                                     <span class="input-group-addon" id="convidado-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
                                     <input type="text" class="form-control" id="convidado" ng-model="formulario.convidado" autocomplete='name'>
                                 </div>
+                                <span class="help-block" ng-show="erros.convidado" ng-bind-html="erros.convidado"></span>
                             </div>
                         </div>
-                        <div class="form-group form-group-lg">
+                        <div class="form-group form-group-lg" ng-class="{'has-error' : erros.email}">
                             <label for="email" class="col-sm-3 control-label">Email de Contato</label>
                             <div class="col-sm-9">
                                 <div class="input-group">
                                     <span class="input-group-addon" id="convidado-addon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
                                     <input type="email" class="form-control" id="email" ng-model="formulario.email" autocomplete='email'>
                                 </div>
+                                <span class="help-block" ng-show="erros.email" ng-bind-html="erros.email"></span>
                             </div>
                         </div>
-                        <div class="btn-group centralizado">
+                        <div class="btn-group centralizado form-group wrapper" ng-class="{'has-error' : erros.comparecimento}">
                             <label for="sim" class="btn btn-radio btn-default" ng-class="{'active': formulario.comparecimento == 'sim'}">
                                 <input type="radio" name="comparecimento" value="sim" ng-model="formulario.comparecimento" id="sim" autocomplete="off"><span class="text-success"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;SIM, comparecerei!</span>
                             </label>
@@ -68,6 +72,7 @@
                                 <input type="radio" name="comparecimento" value="nao" ng-model="formulario.comparecimento" id="nao" autocomplete="off"><span class="text-danger"><span class="glyphicon glyphicon-remove text-danger" aria-hidden="true"></span>&nbsp;NÃO poderei ir</span>
                             </label>
                         </div>
+                        <div class="form-group" ng-class="{'has-error' : erros.comparecimento}" style="text-align:center;"><span class="help-block" ng-show="erros.comparecimento" ng-bind-html="erros.comparecimento"></span></div>
                         <hr ng-hide="formulario.comparecimento == 'nao'" />
                         <div class="row acompanhantes" ng-hide="formulario.comparecimento == 'nao'">
                             <div class="col-md-10 col-md-offset-1">
@@ -97,6 +102,7 @@
                             </div>
                         </div>
                         
+                        
                         <div class="form-group submit">
                             <div class="col-sm-12" >
                                 <button type="submit" ng-click="enviar()" class="btn btn-success btn-lg">Enviar Confirma&ccedil;&atilde;o</button>
@@ -104,6 +110,31 @@
                         </div>
                     </form>
                 </div>
+                <!-- /FORMULARIO -->
+
+                <!-- LOADING -->
+                <div class="col-md-8 col-md-offset-2 well" ng-show="loading">
+                    <h2 style="text-align:center;"><i class="fas fa-spinner fa-fw fa-spin"></i>&nbsp;&nbsp;Carregando...</h2>
+                </div>
+                <!-- /LOADING -->
+
+                <!-- MENSAGEM -->
+                <div class="col-md-8 col-md-offset-2 well well-success" ng-show="exibirMensagemSucesso">
+                    <h2 class="text-success"><i class="fas fa-check fa-fw"></i>Confirmação enviada!</h2>
+                    <section>
+                        <p><strong>Sua presença foi confirmada, obrigado! <i class="far fa-smile text-success"></i></strong></p>
+                        <p>Aguardamos ansiosamente a sua presença.</p>
+                    </section>
+                </div>
+                <div class="col-md-8 col-md-offset-2 well well-danger" ng-show="exibirMensagemErro">
+                    <h2 class="text-danger"><i class="fas fa-times fa-fw"></i>Erro ao confirmar</h2>
+                    <section>
+                        <p><strong>Prensença não confirmada <i class="far fa-frown text-danger"></i></strong></p>
+                        <p>Aconteceu algo de errado enquanto confirmávamos sua presença. Por favor, tente novamente mais tarde ou entre em contato diretamente conosco.</p>
+                    </section>
+                </div>
+                <!-- /MENSAGEM -->
+                
             </div>
 
 

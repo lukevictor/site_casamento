@@ -17,6 +17,8 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
     <!-- Estilos especificos -->
     <?php 
@@ -24,7 +26,7 @@
           	include_once(TEMPLATE_ESTILO); 
         }else{
 			      echo '<link href="' . CSS_ROOT . '/sticky_footer.css" rel="stylesheet">';
-            echo '<link href="' . CSS_ROOT . '/main.min.css?rel=c864a330f5" rel="stylesheet">';
+            echo '<link href="' . CSS_ROOT . '/main.min.css?rel=d868a97f61" rel="stylesheet">';
 		    }
     ?>
 
