@@ -101,11 +101,14 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        
                         <div class="form-group submit">
                             <div class="col-sm-12" >
-                                <button type="submit" ng-click="enviar()" class="btn btn-success btn-lg">Enviar Confirma&ccedil;&atilde;o</button>
+                                <button type="submit" class="btn btn-success btn-lg "
+                                    vc-recaptcha
+                                    key="recaptcha.key"
+                                    on-create="setWidgetId(widgetId)"
+                                    on-success="setResponse(response)"
+                                    on-expire="cbExpiration()">Enviar Confirma&ccedil;&atilde;o</button>
                             </div>
                         </div>
                     </form>
@@ -155,7 +158,8 @@
 	<?php
 		include_once("../template/footer.tpl.php");
 		include_once("../template/javascript.tpl.php");
-	?>
+    ?>
+
 </body>
 </html>
 

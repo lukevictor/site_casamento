@@ -6,7 +6,7 @@
  * @author felipe.leao
  */
 
-var app = angular.module('app', ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'timer', 'angularMoment', 'angularjs-dropdown-multiselect']);
+var app = angular.module('app', ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'timer', 'angularMoment', 'angularjs-dropdown-multiselect', 'vcRecaptcha']);
 
 
 // app.constant("MODAL", {
@@ -90,8 +90,15 @@ app.config(function ($httpProvider, $logProvider, $injector) {
  * 
  * @author felipe.leao
  */
-app.controller('FormularioPresencaController', function ($scope, $log, formularioPresencaAPI) {
+app.controller('FormularioPresencaController', function ($scope, $log, vcRecaptchaService, formularioPresencaAPI) {
 
+    $scope.response = null;
+    $scope.widgetId = null;
+    $scope.recaptcha = {
+        key : '6LcAlVEUAAAAAIIsS6aPif9j_wzgjKotaabw_9FL',
+        response : null,
+        widgetId : null
+    };
     $scope.loading = false;
     $scope.exibirMensagemSucesso = false;
     $scope.exibirMensagemErro = false;
@@ -107,11 +114,11 @@ app.controller('FormularioPresencaController', function ($scope, $log, formulari
     /**
      * Metodo de inicializacao do formulario
      */
-    $scope.init = function(){
-    
-    };
+    $scope.init = function(){};
 
-    
+    //////////////////////////////////////////////////////////////////
+    // Metodos de interface
+    //////////////////////////////////////////////////////////////////
     $scope.adicionarAcompanhante = function(){
         $scope.formulario.acompanhantes.push({nome:null, ordem:$scope.ordemAcompanhante++});
     };
@@ -120,10 +127,29 @@ app.controller('FormularioPresencaController', function ($scope, $log, formulari
         $scope.formulario.acompanhantes.splice($scope.formulario.acompanhantes.indexOf(ac),1);
     };
 
+    //////////////////////////////////////////////////////////////////
+    // Metodos utilizados pelo reCaptcha
+    //////////////////////////////////////////////////////////////////
+    $scope.setResponse = function (response) {
+        $scope.recaptcha.response = response;
+        $scope.enviar();
+    };
+    $scope.setWidgetId = function (widgetId) {
+        $scope.recaptcha.widgetId = widgetId;
+    };
+    $scope.cbExpiration = function() {
+        vcRecaptchaService.reload($scope.widgetId);
+        $scope.recaptcha.response = null;
+     };
+
+    //////////////////////////////////////////////////////////////////
+    // Envio do formulario
+    //////////////////////////////////////////////////////////////////
     $scope.enviar = function(){
+        $log.debug("Enviado formulario.");
         if(_validarFormulario()){
             $scope.loading = true;
-            formularioPresencaAPI.enviarConfirmacao($scope.formulario).then(
+            formularioPresencaAPI.enviarConfirmacao($scope.formulario, $scope.recaptcha.response).then(
                 function sucesso(){
                     $scope.exibirMensagemSucesso = true;
                     $scope.exibirMensagemErro = false;
@@ -152,6 +178,12 @@ app.controller('FormularioPresencaController', function ($scope, $log, formulari
 
         return angular.equals($scope.erros, {});
     }
+
+
+
+
+    
+
 
 });
 
@@ -194,9 +226,9 @@ app.controller('LandingController', function ($scope, $log, $timeout, moment) {
  */
 app.factory("formularioPresencaAPI", function ($http, $log) {
 
-    var _enviarConfirmacao = function (formulario) {
+    var _enviarConfirmacao = function (formulario, recaptchaToken) {
         $log.debug("Invocando o envio de confirmacao.");
-		return $http.post("confirmar.php", formulario);
+		return $http.post("confirmar.php", {formulario: formulario, recaptcha: recaptchaToken});
     };
 
 
