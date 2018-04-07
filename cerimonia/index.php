@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <section>
-                    <p>Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Leite de capivaris, leite de mula manquis sem cabeça. Diuretics paradis num copo é motivis de denguis. Atirei o pau no gatis, per gatis num morreus.</p>
+                    <p>Tanto a cerimônia de casamento quanto a recepção ocorrerão na <strong>Vila Inglesa Casa de Festas</strong>.</p><p>Aguardamos nossos convidados às <strong>19:30h</strong> do dia <strong>11 de Agosto de 2018</strong>.</p>
                     </section>
                 </div>
             </div>
@@ -36,10 +36,19 @@
 
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
+                    <h1>Endereço</h1>
                     <section>
-                        <p>Local: Vila Inglesa Casa de Festas</p>
-                        <p>Endereço: Estr. dos Três Rios, 2134 - Freguesia (Jacarepaguá), Rio de Janeiro - RJ, 22745-005</p>
-                        <p>Horário: 19:30h</p>
+                        <p>Vila Inglesa Casa de Festas</p>
+                        <p>Estrada dos Três Rios, 2134 - Freguesia (Jacarepaguá), Rio de Janeiro - RJ, 22745-005</p>
+                    </section>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <section>
+                        <img src="../assets/images/bullet.png" alt="Separador" class="img-responsive center separador">
                     </section>
                 </div>
             </div>
@@ -47,20 +56,14 @@
 		</div> <!-- /container -->
 
         <div class="mapa">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Como Chegar <small>/Localiza&ccedil;&atilde;o</small></h1>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.5081570700927!2d-43.32683488437728!3d-22.931505344520108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8206d60a68f%3A0x6d80fc3313291292!2sVila+Inglesa+Casa+de+Festas!5e0!3m2!1spt-BR!2sbr!4v1523047986984" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <section>
-                            <img src="../assets/images/double_arrow.png" alt="Separador" class="img-responsive center separador">
-                        </section>
-                    </div>
-                </div>
+            <div >
+                <h1>Como Chegar <small>/Localiza&ccedil;&atilde;o</small></h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.5081570700927!2d-43.32683488437728!3d-22.931505344520108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8206d60a68f%3A0x6d80fc3313291292!2sVila+Inglesa+Casa+de+Festas!5e0!3m2!1spt-BR!2sbr!4v1523047986984" allowfullscreen></iframe>
+            </div>
+            <div>
+                <section>
+                    <img src="../assets/images/double_arrow.png" alt="Separador" class="img-responsive center separador">
+                </section>
             </div>
         </div>
 
