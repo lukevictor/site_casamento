@@ -1,4 +1,4 @@
-<?php include_once("../config/constants.php"); ?>
+<?php include_once("../src/config/constants.php"); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
     <!-- Inclusao do Header com os Metas e estilos -->
@@ -78,7 +78,7 @@
                             <div class="col-md-10 col-md-offset-1">
                                 <div class="panel panel-warning">
                                     <div class="panel-heading">
-                                        <h3 class="panel-title">Acompanhantes</h3>
+                                        <h3 class="panel-title">Acompanhantes Confirmados</h3>
                                     </div>
                                     <div class="panel-body">
                                         <div class="form-group" ng-repeat="ac in formulario.acompanhantes | orderBy:ordem">
@@ -117,7 +117,7 @@
 
                 <!-- LOADING -->
                 <div class="col-md-8 col-md-offset-2 well" ng-show="loading">
-                    <h2 style="text-align:center;"><i class="fas fa-spinner fa-fw fa-spin"></i>&nbsp;&nbsp;Carregando...</h2>
+                    <h2 style="text-align:center;"><i class="fas fa-spinner fa-fw fa-spin"></i>&nbsp;&nbsp;Enviando...</h2>
                 </div>
                 <!-- /LOADING -->
 

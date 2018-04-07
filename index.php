@@ -1,4 +1,4 @@
-<?php include_once("config/constants.php"); ?>
+<?php include_once("src/config/constants.php"); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
     <!-- Inclusao do Header com os Metas e estilos -->
