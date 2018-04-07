@@ -38,12 +38,13 @@ class ReCaptchaUtil {
      * @return String conteudo do servico acessado
      */
     private function getCurlData($url) {
-        ob_start();
-        var_dump($url);
-        error_log(ob_get_clean());
+        //Codigo para gerar output no error_log
+        // ob_start();
+        // var_dump($url);
+        // error_log(ob_get_clean());
 
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_VERBOSE, true);
+        // curl_setopt($curl, CURLOPT_VERBOSE, true);
         curl_setopt($curl, CURLOPT_URL, $url);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($curl, CURLOPT_TIMEOUT, 10);
