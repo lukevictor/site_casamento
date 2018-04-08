@@ -103,12 +103,12 @@
                         </div>
                         <div class="form-group submit">
                             <div class="col-sm-12" >
-                                <button type="submit" class="btn btn-success btn-lg "
+                                <button type="submit" class="btn btn-default btn-lg "
                                     vc-recaptcha
                                     key="recaptcha.key"
                                     on-create="setWidgetId(widgetId)"
                                     on-success="setResponse(response)"
-                                    on-expire="cbExpiration()">Enviar Confirma&ccedil;&atilde;o</button>
+                                    on-expire="cbExpiration()">Enviar Resposta</button>
                             </div>
                         </div>
                     </form>
