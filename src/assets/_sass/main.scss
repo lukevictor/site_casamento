@@ -43,6 +43,8 @@ div.topo {
 
     &.noivos { background: url(../../assets/images/bg_teste_croped.jpg) no-repeat center center;  }
     &.presentes { background: url(../../assets/images/presentes_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 400px;  }
+    &.confirmacao { background: url(../../assets/images/convite_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 400px; }
+    &.cerimonia { background: url(../../assets/images/cerimonia.jpg) no-repeat center center; background-size: auto 400px; }
 
 }
 
@@ -136,7 +138,7 @@ h1 {
 
 .row {
     &.card-loja {
-        background-color: $amarelo-medio;
+        background-color: $amarelo-claro;
         border-radius: 5px;
         margin-bottom: 15px;
         margin-left: 5px;
@@ -160,13 +162,66 @@ h1 {
         }
     }
 
+    &.form-presenca {
+        margin-top: 10px;
+
+        label {font-family: 'Roboto', sans-serif;}
+
+        .well { 
+            background-color: $amarelo-claro; 
+            &.well-success { background-color: $brand-success-lighten; border: 1px solid $brand-success; }
+            &.well-danger { background-color: $brand-danger-lighten; border: 1px solid $brand-danger; }
+            h2 { 
+                font-family: 'Roboto', sans-serif;
+                margin-bottom: 20px; 
+            }
+        }
+
+        .btn-radio {
+            @media #{$desktop} {
+                width: 250px;
+                text-align: center;
+            }
+
+            & > input[type=radio] {
+                position: absolute;
+                clip: rect(0, 0, 0, 0);
+                pointer-events: none;
+            }
+        }
+
+        .submit {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .centralizado {
+            display: table;
+            margin: 0 auto;
+        }
+
+        .acompanhantes {
+            // margin-bottom: 20px;
+            // &.well { background-color: #eee; }
+            .btn-default { background-color: $gray-lighter }
+        }
+
+        .form-group {
+            &.wrapper.has-error {
+                border: 1px solid $brand-danger;
+                border-radius: 4px;
+            }
+        }
+
+    }
+
     div.card-banco {
         background-color: #ffffff;
         border-radius: 5px;
         border: 1px solid $gray-lighter;
         padding: 0 10px;
         margin: 0 auto;
-        box-shadow: 0 0px 25px rgba(0,0,0,.10);
+        box-shadow: 0 0px 15px rgba(0,0,0,.10);
 
         @media #{$smartphone}{
             margin-bottom: 10px;
@@ -194,6 +249,20 @@ h1 {
         }
     }
 
+}
+
+
+.mapa{
+    padding: 50px 0px;
+    background-color: $amarelo-claro;
+    border-top: 1px solid $amarelo-medio;
+
+    iframe {
+        width: 100%;
+        height: 400px;
+        border: 1px solid $rosa-principal;
+        border-radius: 10px;
+    }
 }
 
 

@@ -6,7 +6,7 @@
  * @author felipe.leao
  */
 
-var app = angular.module('app', ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'timer', 'angularMoment', 'angularjs-dropdown-multiselect']);
+var app = angular.module('app', ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'timer', 'angularMoment', 'angularjs-dropdown-multiselect', 'vcRecaptcha']);
 
 
 // app.constant("MODAL", {

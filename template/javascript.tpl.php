@@ -15,6 +15,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/locale/pt-br.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/1.2.0/angular-moment.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/humanize-duration/3.12.1/humanize-duration.min.js"></script>
+    <script type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
 		<script type="text/javascript" src="<?= THIRD_PARTY_ROOT; ?>/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-		<script type="text/javascript" src="<?= THIRD_PARTY_ROOT; ?>/angularjs-dropdown-multiselect/dist/angularjs-dropdown-multiselect.min.js"></script>
-    <script type="text/javascript" src="<?= JS_ROOT; ?>/app.annotated.js"></script>
+    <script type="text/javascript" src="<?= THIRD_PARTY_ROOT; ?>/angularjs-dropdown-multiselect/dist/angularjs-dropdown-multiselect.min.js"></script>
+    <script type="text/javascript" src="<?= THIRD_PARTY_ROOT; ?>/angular-recaptcha/release/angular-recaptcha.min.js"></script>
+    <script type="text/javascript" src="<?= JS_ROOT; ?>/app.annotated.js?rel=54ffc38a1f"></script>
