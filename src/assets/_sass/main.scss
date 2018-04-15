@@ -42,10 +42,17 @@ div.topo {
     }
 
     &.noivos { background: url(../../assets/images/noivos_croped_grid_vignette.jpg) no-repeat center center; background-size: auto auto;  }
+    &.padrinhos { background: url(../../assets/images/amigos_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 300px;  }
     &.presentes { background: url(../../assets/images/presentes_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 300px;  }
     &.confirmacao { background: url(../../assets/images/convite_croped_grid_vignette.jpg) no-repeat center center; background-size: auto auto; }
     &.cerimonia { background: url(../../assets/images/cerimonia_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 400px; }
 
+    @media #{$smartphone}{
+        &.noivos, &.padrinhos, &.presentes, &.confirmacao, &.cerimonia {
+            background-size: auto 150px;
+        }
+    }
+    
 }
 
 section {
@@ -268,6 +275,75 @@ h1 {
 }
 
 
+.padrinhos {
+    .container {
+        padding: 10px;
+        &.left { border-top-left-radius: 30px; border-bottom-left-radius: 30px; }
+        &.right { border-top-right-radius: 30px; border-bottom-right-radius: 30px; }
+        
 
+        .nome {
+            color: $rosa-principal;
+            text-align: center;
+            font-family: 'Great Vibes';
+            font-size: 2em;
+            margin-top: 10px;
+            // margin-bottom: 10px;
+            @media #{$oldSmartphone} {
+                font-size: 1.5em;
+            }
+        }
+        .foto{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            left: 0;
+            margin: 0px auto;
+            background-position: center;
+            background-size: cover;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            @media #{$oldSmartphone} {
+                width: 100px;
+                height: 100px;
+            }
+            @media #{$commonSmartphone} {
+                width: 150px;
+                height: 150px;
+            }
+            
+        
+            &:before {
+                display: block;
+                content: "";
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                border: 10px solid rgba(255,255,255,0.4);
+                border-radius: 50%;
+                @media #{$oldSmartphone} {
+                    width: 100px;
+                    height: 100px;
+                }
+                @media #{$commonSmartphone} {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
 
+        }
+    }
 
+    &:hover{
+        .container{
+            background-color: $amarelo-claro;
+            @include transition (all 0.3s ease-in-out);
+
+            .foto{ 
+                -webkit-filter: grayscale(0%);
+                filter: grayscale(0%);
+                @include transition (all 0.3s ease-in-out);
+            }
+        }
+    }
+}
