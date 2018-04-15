@@ -20,7 +20,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <section>
-                        <p>Para aqueles que quiserem nos mimar um pouco (=p) selecionamos algumas lojas e criamos listas de presentes com itens para montarmos nosso novo lar. Para os que n&atilde;o quiserem realizar compras/pagamentos pela internet, é possível ir diretamente à alguma unidade física das lojas que listamos abaixo e visualizar lá mesmo a listagem dos itens que selecionamos.</p>
+                        <p>Para aqueles que quiserem nos mimar um pouco (=p) selecionamos algumas lojas e criamos listas de presentes com itens para montarmos nosso novo lar.</p>
+                        <p>Caso n&atilde;o se sinta confort&aacute;vel em realizar compras/pagamentos pela internet, é possível ir diretamente à alguma unidade física das lojas que listamos abaixo e visualizar lá mesmo a listagem dos itens que selecionamos.</p>
                     </section>
                 </div>
             </div>
