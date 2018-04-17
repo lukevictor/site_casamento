@@ -20,9 +20,17 @@
             <div class="row">
                 <div class="col-md-12">
                     <section>
-                    <p>Tanto a cerimônia de casamento quanto a recepção ocorrerão na <strong>Vila Inglesa Casa de Festas</strong>.</p>
-                    <p>Aguardamos nossos convidados às <strong>19:30h</strong> do dia <strong>11 de Agosto de 2018</strong>.</p>
-                    <p>A casa de festa provê estacionamento com serviço de valet sem custos.</p>
+                        <p>Tanto a cerimônia de casamento quanto a recepção ocorrerão na <strong>Vila Inglesa Casa de Festas</strong> às <strong>19:30h</strong> do dia <strong>11 de Agosto de 2018</strong>.</p>
+                        <p>Pedimos que não se atrase pois este momento é muito especial para nós e gostaríamos que fizesse parte dele por completo! Contamos com você!</p>
+                    </section>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Estacionamento</h2>
+                    <section>
+                        <p>A casa de festa provê estacionamento com serviço de valet sem custos. Mas lembre-se: se beber, não dirija!</p>
                     </section>
                 </div>
             </div>
