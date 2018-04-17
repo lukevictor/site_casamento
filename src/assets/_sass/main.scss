@@ -64,28 +64,7 @@ section {
     }
 }
 
-ul.detalhes {
-    li {
-        display: block;
-        
-        em {
-            color: $rosa-principal;
-            font-weight: bold;
-            font-style: italic;
-            // text-decoration: underline;
-        }
-    }
 
-    li:before {
-        content: "\e080";
-        font-family: 'Glyphicons Halflings';
-        font-size: 12px;
-        float: left;
-        margin-top: 2px;
-        margin-left: -17px;
-        color: $rosa-principal;
-    }
-}
 
 #footer {
     background-color: $gray-dark;
@@ -250,6 +229,36 @@ h2 {
             }
         }
 
+    }
+
+    &.detalhes {
+        background-color: $amarelo-claro;
+        border: 1px solid $amarelo-medio;
+        border-radius: 5px;
+        padding-bottom: 10px;
+
+        ul {
+            li {
+                display: block;
+                
+                em {
+                    color: $rosa-principal;
+                    font-weight: bold;
+                    font-style: italic;
+                    // text-decoration: underline;
+                }
+            }
+        
+            li:before {
+                content: "\e080";
+                font-family: 'Glyphicons Halflings';
+                font-size: 12px;
+                float: left;
+                margin-top: 2px;
+                margin-left: -17px;
+                color: $rosa-principal;
+            }
+        }
     }
 
     div.card-banco {

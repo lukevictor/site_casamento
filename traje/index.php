@@ -35,7 +35,7 @@
                 </div>
             </div>
             
-            <div class="row">
+            <div class="row detalhes">
             <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12">
@@ -44,7 +44,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <ul class="detalhes">
+                            <ul>
                                 <li>Vestido curto, midi ou longo. São também opções o uso de terninho ou tailleur.</li>
                                 <li>Você pode optar por uma roupa de tecido liso, com brilho ou estampado. Só pedimos a gentileza de <em>não</em> ir de <em>branco</em>, <em>pérola</em>, <em>offwhite</em>, <em>gelo</em> ou <em>nude</em>. Deixe as cores muito clarinhas para a noiva!</li>
                                 <li>O uso de salto alto é opcional</li>
