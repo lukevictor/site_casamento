@@ -46,8 +46,9 @@
                         <div class="col-md-12">
                             <ul>
                                 <li>Vestido curto, midi ou longo. São também opções o uso de terninho ou tailleur.</li>
-                                <li>Você pode optar por uma roupa de tecido liso, com brilho ou estampado. Só pedimos a gentileza de <em>não</em> ir de <em>branco</em>, <em>pérola</em>, <em>offwhite</em>, <em>gelo</em> ou <em>nude</em>. Deixe as cores muito clarinhas para a noiva!</li>
+                                <li>Você pode optar por uma roupa de tecido liso, com brilho ou estampado. Só pedimos a gentileza de <b><u>não</u></b> ir de <em>branco</em>, <em>pérola</em>, <em>offwhite</em>, <em>gelo</em> ou <em>nude</em>. Deixe as cores muito clarinhas para a noiva!</li>
                                 <li>O uso de salto alto é opcional</li>
+                                <li>As madrinhas usarão a cor <em>marsala</em>, mas fique à vontade para vestir-se com esta mesma cor, caso queira.</li>
                             </ul>
                         </div>
                     </div>
