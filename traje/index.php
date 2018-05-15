@@ -20,8 +20,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <section>
-                        <p>Vestido curto ou longo? Camisa com ou sem gravata? Calça social ou jeans? E se eu usar a mesma cor das madrinhas?</p>
-                        <p>Sabemos que no Rio de Janeiro é comum ter cerimônias com os mais diversos tipos de códigos de vestimenta. Depende do lugar, horário, ambiente, religião...</p>
+                        <p>Vestido curto ou longo? Camisa com ou sem gravata? Calça social ou jeans?</p>
+                        <p>Sabemos que no Rio de Janeiro existem cerimônias com os mais diversos tipos de códigos de vestimentas. Depende do lugar, horário, religião...</p>
                         <p>Abaixo estão algumas dicas para auxiliá-los!</p>
                     </section>
                 </div>
@@ -46,7 +46,7 @@
                         <div class="col-md-12">
                             <ul>
                                 <li>Vestido curto, midi ou longo. São também opções o uso de terninho ou tailleur.</li>
-                                <li>Você pode optar por uma roupa de tecido liso, com brilho ou estampado. Só pedimos a gentileza de <b><u>não</u></b> ir de <em>branco</em>, <em>pérola</em>, <em>offwhite</em>, <em>gelo</em> ou <em>nude</em>. Deixe as cores muito clarinhas para a noiva!</li>
+                                <li>Você pode optar por uma roupa de tecido liso, estampado, com ou sem brilho . Só pedimos a gentileza de <b><u>não</u></b> ir de <em>branco</em>, <em>offwhite</em> ou <em>gelo</em>. Deixe as cores muito clarinhas para a noiva!</li>
                                 <li>O uso de salto alto é opcional</li>
                                 <li>As madrinhas usarão a cor <em>marsala</em>, mas fique à vontade para vestir-se com esta mesma cor, caso queira.</li>
                             </ul>
@@ -62,7 +62,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <ul>
-                                <li>Terno, costume ou a combinação de calça social, blusa social, blazer e sapato. O uso de gravata é opcional.</li>
+                                <li>Terno, costume ou a combinação de calça social, blusa social e blazer. O uso de gravata é opcional.</li>
                                 <li>Pedimos a gentileza de não usar camisa polo, camiseta, jeans, bermuda e calçados não sociais.</li>
                             </ul>
                         </div>
