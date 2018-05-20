@@ -43,14 +43,14 @@
                 <div class="col-md-8">
                     <h1>Fast Shop</h1>
                     <p>Loja de eletrônicos e eletrodomésticos. Caso prefira uma loja física é possível encontrá-las em diversos shoppings na cidade do Rio de Janeiro.</p>
-                    <p><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<a target="_blank" href="#">Link direto para a lista</a></p>
+                    <p><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<a target="_blank" href="https://listadecasamento.fastshop.com.br/ListaCasamento/ListaCasamentoProdutos.aspx?ID=247643">Link direto para a lista</a></p>
                 </div>
             </div>
 
             <div class="row card-loja">
                 <div class="col-md-4 hidden-xs hidden-sm">
                     <!-- <img src="../assets/images/Etna-Logo.png" class="img-responsive center" /> -->
-                    <img src="../assets/images/logo_tokstok.png" class="img-responsive center" />
+                    <img src="../assets/images/logo_tokstok .png" class="img-responsive center" />
                 </div>
                 <div class="col-md-8">
                     <h1>Tok &amp; Stok</h1>
