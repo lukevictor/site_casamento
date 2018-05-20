@@ -63,7 +63,8 @@ module.exports = function(grunt) {
 		uglify : {
 			options : {
 				// permite que nomes de metodos e variaveis sejam trocadas para diminuir o tamanho
-				mangle : true
+				mangle : true,
+				compress: true
 			},
 
 			compilar_e_minificar : {

@@ -93,6 +93,7 @@
                     width: 100px;
                     color: $dourado-escuro;
                     &:hover{ color: $dourado-escuro; }
+                    &:active {background-color: #000;}
                 }
 
                 &:hover {
@@ -111,6 +112,18 @@
             @media #{$oldDesktop}{
                 padding: 14px 0px;
                 width: 50px;
+            }
+        }
+    }
+
+    @media #{$smartphone} {
+        .navbar-nav {
+            &>li {
+                &:hover, &:active {
+                    border-left: 4px solid $rosa-principal;
+                    color: $rosa-principal;
+                    background-color: rgba(243, 231, 219, 0.5);
+                }
             }
         }
     }
