@@ -50,7 +50,7 @@
             <div class="row card-loja">
                 <div class="col-md-4 hidden-xs hidden-sm">
                     <!-- <img src="../assets/images/Etna-Logo.png" class="img-responsive center" /> -->
-                    <img src="../assets/images/logo_tokstok .png" class="img-responsive center" />
+                    <img src="../assets/images/logo_tokstok.png" class="img-responsive center" />
                 </div>
                 <div class="col-md-8">
                     <h1>Tok &amp; Stok</h1>
