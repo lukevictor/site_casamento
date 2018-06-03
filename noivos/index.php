@@ -36,7 +36,7 @@
                     <div class="frame-conjuge-wrapper">
                         <div class="frame-conjuge">
                             <h1>Felipe Leão</h1>
-                            <div class="img-avatar" style="background-image: url(../assets/images/felipe.jpg);"></div>
+                            <div class="img-avatar" style="background-image: url(../assets/images/felipe3.jpg);"></div>
                             <section>
                                 <p>Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Delegadis gente finis, bibendum egestas augue arcu ut est. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Nec orci ornare consequat</p>
                             </section>

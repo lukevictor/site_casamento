@@ -9,21 +9,27 @@ $output-bourbon-deprecation-warnings: false !default;
 
 
 html {
-    // background: url(../../assets/images/bg_teste.jpg) no-repeat center center fixed; 
-    // background: url(../../assets/images/bg.jpg) no-repeat center center fixed; 
-    // background: url(../../assets/images/foto_bg.jpg) no-repeat center center fixed; 
-    background: url(../../assets/images/bg_teste_2.jpg) no-repeat center center fixed; 
+    // background: url(../../assets/images/bg_teste_2.jpg) no-repeat center center fixed; 
+    background: url(../../assets/images/capa.jpg) no-repeat center center fixed; 
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
+    @media #{$oldSmartphone} {
+        background: url(../../assets/images/capa.jpg) no-repeat -200px center fixed; 
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
 }
 
 body {
     background-color: transparent;
 
     // box-shadow: 0 0 500px rgba(0,0,0,0.9) inset;
-    box-shadow: 0 0 500px rgba(93, 60, 0, 0.8) inset;
+    // box-shadow: 0 0 500px rgba(93, 60, 0, 0.8) inset;
 }
 
 
@@ -34,6 +40,7 @@ body {
     font-size: 60px;
     color: #fff;
     margin-top: 75px;
+    text-shadow: 0px 0px 14px #404040;
     
     &>.conector {
         text-align: center;
@@ -90,7 +97,7 @@ body {
         font-size: 55px;
         display: block;
         margin-top: 15px;
-        text-shadow: 0px 0px 14px rgba(150, 150, 150, 1);
+        text-shadow: 0px 0px 14px rgba(68, 68, 68, 1);
     }
 
     &>.unidade {

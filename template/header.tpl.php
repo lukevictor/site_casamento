@@ -33,7 +33,7 @@
           	include_once(TEMPLATE_ESTILO); 
         }else{
 			      echo '<link href="' . CSS_ROOT . '/sticky_footer.css" rel="stylesheet">';
-            echo '<link href="' . CSS_ROOT . '/main.min.css?rel=49c6f32a9f" rel="stylesheet">';
+            echo '<link href="' . CSS_ROOT . '/main.min.css?rel=67e7224e13" rel="stylesheet">';
 		    }
     ?>
 
