@@ -14,12 +14,12 @@ define("THIRD_PARTY_ROOT", APPLICATION_ROOT."/third-party");
 // Constantes para configuracao do envio de email
 ////////////////////////////////////////////////////////////////
 define("MAIL_DEBUG_MODE", 0 );
-define("MAIL_SMTP_HOST", "smtp.gmail.com");
+define("MAIL_SMTP_HOST", "mx1.hostinger.com.br");
 define("MAIL_SMTP_SECURITY", "tls");
 define("MAIL_SMTP_PORT", 587);
-define("MAIL_SMTP_USERNAME", "no.reply.bbtecno@gmail.com");
-define("MAIL_SMTP_PASSWORD", "testeBBTECNO");
-define("MAIL_FROM", array('EMAIL'=>'no-reply@camillaefelipenoaltar.com.br', 'NOME'=>'Camilla & Felipe no altar') );
+define("MAIL_SMTP_USERNAME", "nao-responder@camillaefelipenoaltar.com.br");
+define("MAIL_SMTP_PASSWORD", "6MH4dTP3L4eC");
+define("MAIL_FROM", array('EMAIL'=>'nao-responder@camillaefelipenoaltar.com.br', 'NOME'=>'Camilla & Felipe no altar') );
 define("MAIL_DESTINATARIOS", array(
     array('EMAIL'=>'felipebcleao@gmail.com', 'NOME'=>'Felipe'),
     array('EMAIL'=>'felipeleao88@gmail.com', 'NOME'=>'Felipe (alternativo)'),
