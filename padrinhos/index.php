@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <section>
-                        <img src="../assets/images/bullet.png" alt="Separador" class="img-responsive center separador">
+                        <img src="../assets/images/opt/bullet.png" alt="Separador" class="img-responsive center separador">
                     </section>
                 </div>
             </div>
@@ -38,11 +38,11 @@
             <div class="row">
                 <div ng-repeat="casal in casais" class="padrinhos">
                     <div class="col-md-3 col-xs-6 container left">
-                        <div class="foto" style="background-image: url(../assets/images/padrinhos/{{casal.madrinha.foto}});"></div>
+                        <div class="foto" style="background-image: url(../assets/images/opt/padrinhos/{{casal.madrinha.foto}});"></div>
                         <div class="nome">{{casal.madrinha.nome}}</div>
                     </div>
                     <div class="col-md-3 col-xs-6 container right">
-                        <div class="foto" style="background-image: url(../assets/images/padrinhos/{{casal.padrinho.foto}});"></div>
+                        <div class="foto" style="background-image: url(../assets/images/opt/padrinhos/{{casal.padrinho.foto}});"></div>
                         <div class="nome">{{casal.padrinho.nome}}</div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <section>
-                        <img src="../assets/images/double_arrow.png" alt="Separador" class="img-responsive center separador">
+                        <img src="../assets/images/opt/double_arrow.png" alt="Separador" class="img-responsive center separador">
                     </section>
                 </div>
             </div>

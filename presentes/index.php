@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <section>
-                        <img src="../assets/images/bullet.png" alt="Separador" class="img-responsive center separador">
+                        <img src="../assets/images/opt/bullet.png" alt="Separador" class="img-responsive center separador">
                     </section>
                 </div>
             </div>
@@ -37,8 +37,8 @@
 
             <div class="row card-loja">
                 <div class="col-md-4 hidden-xs hidden-sm">
-                    <!-- <img src="../assets/images/Fast-Shop-Logo.jpg" class="img-responsive center" /> -->
-                    <img src="../assets/images/logo_fast.png" class="img-responsive center" />
+                    <!-- <img src="../assets/images/opt/Fast-Shop-Logo.jpg" class="img-responsive center" /> -->
+                    <img src="../assets/images/opt/logo_fast.png" class="img-responsive center" />
                 </div>
                 <div class="col-md-8">
                     <h1>Fast Shop</h1>
@@ -49,8 +49,8 @@
 
             <div class="row card-loja">
                 <div class="col-md-4 hidden-xs hidden-sm">
-                    <!-- <img src="../assets/images/Etna-Logo.png" class="img-responsive center" /> -->
-                    <img src="../assets/images/logo_tokstok.png" class="img-responsive center" />
+                    <!-- <img src="../assets/images/opt/Etna-Logo.png" class="img-responsive center" /> -->
+                    <img src="../assets/images/opt/logo_tokstok.png" class="img-responsive center" />
                 </div>
                 <div class="col-md-8">
                     <h1>Tok &amp; Stok</h1>
@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <section>
-                        <img src="../assets/images/double_arrow.png" alt="Separador" class="img-responsive center separador">
+                        <img src="../assets/images/opt/double_arrow.png" alt="Separador" class="img-responsive center separador">
                     </section>
                 </div>
             </div>
@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <section>
-                        <img src="../assets/images/bullet.png" alt="Separador" class="img-responsive center separador">
+                        <img src="../assets/images/opt/bullet.png" alt="Separador" class="img-responsive center separador">
                     </section>
                 </div>
             </div>
@@ -92,7 +92,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="card-banco">
-                        <div class="logo"><img class="img-responsive" src="../assets/images/logo_bb.png" /></div>
+                        <div class="logo"><img class="img-responsive" src="../assets/images/opt/logo_bb.png" /></div>
                         <dl>
                             <dt>Banco</dt><dd>Banco do Brasil (001)</dd>
                             <dt>Agência</dt><dd>2933</dd>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card-banco">
-                        <div class="logo"><img src="../assets/images/logo_caixa.png" /></div>
+                        <div class="logo"><img src="../assets/images/opt/logo_caixa.png" /></div>
                         <dl>
                             <dt>Banco</dt><dd>Caixa Econ&ocirc;mica Fed. (104)</dd>
                             <dt>Agência</dt><dd>3072</dd>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card-banco">
-                        <div class="logo"><img src="../assets/images/logo_inter.png" /></div>
+                        <div class="logo"><img src="../assets/images/opt/logo_inter.png" /></div>
                         <dl>
                         <dt>Banco</dt><dd>Banco Inter (077)</dd>
                             <dt>Agência</dt><dd>0001-9</dd>
@@ -129,7 +129,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card-banco">
-                        <div class="logo"><img src="../assets/images/logo_inter.png" /></div>
+                        <div class="logo"><img src="../assets/images/opt/logo_inter.png" /></div>
                         <dl>
                             <dt>Banco</dt><dd>Banco Inter (077)</dd>
                             <dt>Agência</dt><dd>0001-9</dd>
@@ -147,7 +147,7 @@
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <section>
-                        <img src="../assets/images/double_arrow.png" alt="Separador" class="img-responsive center separador">
+                        <img src="../assets/images/opt/double_arrow.png" alt="Separador" class="img-responsive center separador">
                     </section>
                 </div>
             </div>

@@ -10,14 +10,14 @@ $output-bourbon-deprecation-warnings: false !default;
 
 html {
     // background: url(../../assets/images/bg_teste_2.jpg) no-repeat center center fixed; 
-    background: url(../../assets/images/capa.jpg) no-repeat center center fixed; 
+    background: url(../../assets/images/opt/capa.jpg) no-repeat center center fixed; 
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 
     @media #{$oldSmartphone} {
-        background: url(../../assets/images/capa.jpg) no-repeat -200px center fixed; 
+        background: url(../../assets/images/opt/capa.jpg) no-repeat -200px center fixed; 
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;

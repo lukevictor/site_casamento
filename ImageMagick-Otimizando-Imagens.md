@@ -12,7 +12,7 @@ As imagens serão criadas em um novo diretório, portanto as URLs devem ser alte
 
 2. Executar o comando para otimizar as imagens `JPG`:
     ```bash
-    mogrify -path opt/ -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB *.jpeg
+    mogrify -path opt/ -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB *.jpg
     ```
 3. Executar o comando para otimizar as imagens `PNG`:
     ```bash

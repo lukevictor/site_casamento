@@ -19,7 +19,7 @@
     <meta name="author" content="Felipe Leão">
     <meta name="robots" content="index,follow">
 
-    <link rel="icon" type="image/png" href="<?= IMAGES_ROOT; ?>/favicon.png">
+    <link rel="icon" type="image/png" href="<?= IMAGES_ROOT; ?>/opt/favicon.png">
     <!-- <link rel="icon" href="<?= IMAGES_ROOT; ?>/favicon.ico"> -->
 
     <title>Camilla &amp; Felipe</title>
@@ -33,7 +33,7 @@
           	include_once(TEMPLATE_ESTILO); 
         }else{
 			      echo '<link href="' . CSS_ROOT . '/sticky_footer.css" rel="stylesheet">';
-            echo '<link href="' . CSS_ROOT . '/main.min.css?rel=67e7224e13" rel="stylesheet">';
+            echo '<link href="' . CSS_ROOT . '/main.min.css?rel=e9c731c856" rel="stylesheet">';
 		    }
     ?>
 

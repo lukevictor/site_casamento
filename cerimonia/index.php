@@ -38,7 +38,7 @@
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <section>
-                        <img src="../assets/images/bullet.png" alt="Separador" class="img-responsive center separador">
+                        <img src="../assets/images/opt/bullet.png" alt="Separador" class="img-responsive center separador">
                     </section>
                 </div>
             </div>
@@ -58,7 +58,7 @@
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <section>
-                        <img src="../assets/images/double_arrow.png" alt="Separador" class="img-responsive center separador">
+                        <img src="../assets/images/opt/double_arrow.png" alt="Separador" class="img-responsive center separador">
                     </section>
                 </div>
             </div>
@@ -72,7 +72,7 @@
             </div>
             <div>
                 <section>
-                    <img src="../assets/images/double_arrow.png" alt="Separador" class="img-responsive center separador">
+                    <img src="../assets/images/opt/double_arrow.png" alt="Separador" class="img-responsive center separador">
                 </section>
             </div>
         </div>

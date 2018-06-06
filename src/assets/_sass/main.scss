@@ -41,12 +41,12 @@ div.topo {
         }
     }
 
-    &.noivos { background: url(../../assets/images/noivos_croped_grid_vignette.jpg) no-repeat center center; background-size: auto auto;  }
-    &.padrinhos { background: url(../../assets/images/amigos_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 300px;  }
-    &.traje { background: url(../../assets/images/traje_croped_grid.png) no-repeat center center; background-size: auto 300px;  }
-    &.presentes { background: url(../../assets/images/presentes_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 300px;  }
-    &.confirmacao { background: url(../../assets/images/convite_croped_grid_vignette.jpg) no-repeat center center; background-size: auto auto; }
-    &.cerimonia { background: url(../../assets/images/cerimonia_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 400px; }
+    &.noivos { background: url(../../assets/images/opt/noivos_croped_grid_vignette.jpg) no-repeat center center; background-size: auto auto;  }
+    &.padrinhos { background: url(../../assets/images/opt/amigos_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 300px;  }
+    &.traje { background: url(../../assets/images/opt/traje_croped_grid.png) no-repeat center center; background-size: auto 300px;  }
+    &.presentes { background: url(../../assets/images/opt/presentes_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 300px;  }
+    &.confirmacao { background: url(../../assets/images/opt/convite_croped_grid_vignette.jpg) no-repeat center center; background-size: auto auto; }
+    &.cerimonia { background: url(../../assets/images/opt/cerimonia_croped_grid_vignette.jpg) no-repeat center center; background-size: auto 400px; }
 
     @media #{$smartphone}{
         &.noivos, &.padrinhos, &.traje, &.presentes, &.confirmacao, &.cerimonia {
