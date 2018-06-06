@@ -10,6 +10,7 @@
     </script>
 
     <meta charset="utf-8">
+    <meta http-equiv="Cache-control" content="public">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-language" content="pt-br">
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
