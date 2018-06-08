@@ -24,10 +24,10 @@
                 <div class="col-md-4 col-md-offset-2">
                     <div class="frame-conjuge-wrapper">
                         <div class="frame-conjuge">
-                            <h1>Camilla Azevedo</h1>
-                            <div class="img-avatar" style="background-image: url(../assets/images/opt/camilla.jpg);"></div>
+                        <h1>Felipe Leão</h1>
+                            <div class="img-avatar" style="background-image: url(../assets/images/opt/felipe3.jpg);"></div>
                             <section>
-                                <p>Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Delegadis gente finis, bibendum egestas augue arcu ut est. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Nec orci ornare consequat</p>
+                                <p>Desenvolvedor de Sistemas. Balzaquiano. Judoca. Cozinheiro gourmet. Apreciador de cervejas artesanais e vinhos. Nerd. Viciado em jogo de tabuleiro. Fiel ouvinte de podcast. Arranha um violão. Tenta surfar. Ele não fala, grita.  É inteligente, íntegro, autêntico, corajoso, organizado, sincero, teimoso, perfeccionista e criativo.</p>
                             </section>
                         </div>
                     </div>
@@ -35,10 +35,13 @@
                 <div class="col-md-4">
                     <div class="frame-conjuge-wrapper">
                         <div class="frame-conjuge">
-                            <h1>Felipe Leão</h1>
-                            <div class="img-avatar" style="background-image: url(../assets/images/opt/felipe3.jpg);"></div>
+                        <h1>Camilla Azevedo</h1>
+                            <div class="img-avatar" style="background-image: url(../assets/images/opt/camilla.jpg);"></div>
                             <section>
-                                <p>Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Delegadis gente finis, bibendum egestas augue arcu ut est. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Nec orci ornare consequat</p>
+                                <p>Dorminhoca, agitada, patricinha e organizada. 
+                                Carinhosa mais que tudo e CDF nos estudos. 
+                                Obstinada quando focada e dramanhenta quando incomodada.
+                                Altruísta mais do que deveria e impiedosa quando uma causa a conquista.</p>
                             </section>
                         </div>
                     </div>
@@ -60,8 +63,12 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <section>
-                        <p>Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Delegadis gente finis, bibendum egestas augue arcu ut est. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Pra lá , depois divoltis porris, paradis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! In elementis mé pra quem é amistosis quis leo.</p>
-                        <p>Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Manduma pindureta quium dia nois paga.</p>
+                        <p>A paquera começou, em 2008, no ambiente de trabalho. Ela, estagiária na coordenação e ele, funcionário da área de TI.
+                        Passaram uma semana intensa de trocas de mensagens por orkut, msn, gtalk. Até que, enfim, marcam de sair com uns amigos.
+                        Quando o grande dia chegou, ela passou duas horas calada na mesa do barzinho sem dizer uma palavra de tão nervosa que estava. Enquanto ele não parou de falar se quer por um instante. 
+                        Quando ela se retirou pra ir ao banheiro, ele nem pensou duas vezes e foi atrás dela no lavabo para lhe roubar um beijo. </p>
+                        <p>Pronto! Gamou e grudou! Ja são 10 anos juntos compartilhando diversos momentos: aniversários, viagens, intercâmbio,  graduações, mestrado, MBA e ate o local de trabalho.</p>
+                        <p>E o 11 de Agosto se aproxima (...)</p>
                     </section>
                 </div>
             </div>

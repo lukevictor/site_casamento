@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="form-group form-group-lg" ng-class="{'has-error' : erros.email}">
-                            <label for="email" class="col-sm-3 control-label">Email de Contato</label>
+                            <label for="email" class="col-sm-3 control-label">Email</label>
                             <div class="col-sm-9">
                                 <div class="input-group">
                                     <span class="input-group-addon" id="convidado-addon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
@@ -82,8 +82,8 @@
                                     </div>
                                     <div class="panel-body">
                                         <div class="form-group" ng-repeat="ac in formulario.acompanhantes | orderBy:ordem">
-                                            <label  class="col-sm-2 control-label">Nome</label>
-                                            <div class="col-sm-10">
+                                            <label  class="col-sm-4 control-label">Nome e sobrenome</label>
+                                            <div class="col-sm-8">
                                                 <div class="input-group input-group-sm">
                                                     <input type="text" class="form-control" ng-model="ac.nome" autocomplete='off'>
                                                     <span class="input-group-btn">
