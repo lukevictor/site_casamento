@@ -20,8 +20,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <section>
-                        <p>Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Admodum accumsan disputationi eu sit.</p>
-                        <p>Atirei o pau no gatis, per gatis num morreus. Suco de cevadiss deixa as pessoas mais interessantis. Quem num gosta di mé, boa gentis num é. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!</p>
+                        <p>Agradecemos a vocês queridos amigos, por terem participado da nossa trajetória até aqui. Por terem vibrado conosco a cada nova conquista, por terem compartilhado diversos momentos de alegria e por enxugarem o nosso choro quando não tínhamos como seguir sozinhos.</p>
+                        <p>E agora, quando uma nova fase da aventura se aproxima, torcemos para que vocês continuem presentes ao nosso lado, presenciando nossas experiências, compartilhando da nossa felicidade e nos ajudando a superar as dificuldades.</p>
                     </section>
                 </div>
             </div>
