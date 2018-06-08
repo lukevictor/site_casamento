@@ -70,7 +70,7 @@
                             Enquanto ele, não parou de falar se quer por um instante. Quando ela se retirou pra ir ao
                             banheiro, ele nem pensou muito e foi atrás dela no lavabo para lhe roubar um beijo. Pronto! Gamou e grudou!</p>
                         <p>Hoje estão aqui, com 10 anos de muita história pra contar: beijos, sorrisos, algumas briguinhas
-                            (ninguém é perfeito rsrs), aniversários, festas, cineminhas, Netflix, viagens, muitas idas a Cabo
+                            (ninguém é perfeito rsrs), aniversários, festas, cineminhas, Netflix, jogatinas, viagens, muitas idas a Cabo
                             Frio, intercâmbio, graduações, mestrado, MBA, compartilham até o mesmo local de trabalho,
                             etc.</p>
                         <p>Agora o 11 de Agosto se aproxima e uma nova página dessa história começa a ser escrita e eles
