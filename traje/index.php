@@ -47,7 +47,7 @@
                             <ul>
                                 <li>Vestido curto, midi ou longo. São também opções o uso de terninho ou tailleur.</li>
                                 <li>Você pode optar por uma roupa de tecido liso, estampado, com ou sem brilho . Só pedimos a gentileza de <b><u>não</u></b> ir de <em>branco</em>, <em>offwhite</em> ou <em>gelo</em>. Deixe as cores muito clarinhas para a noiva!</li>
-                                <li>As madrinhas usarão a cor <em>marsala</em>, mas fique à vontade para vestir-se com esta mesma cor, caso queira.</li>
+                                <li>As madrinhas usarão a cor <em>marsala</em> (<i>"vinho"</i>)</li>
                                 <li>O uso de salto alto é opcional.</li>
                             </ul>
                         </div>

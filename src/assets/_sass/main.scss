@@ -109,6 +109,12 @@ h2 {
         background-color: $gray-lighter;
         border: 1px solid $gray-light-soft;
         border-radius: 5px;
+        
+        @media #{$oldDesktop} { height: 560px; }
+        @media #{$smallDesktop} { height: 560px; }
+        @media #{$commonDesktop} { height: 525px; }
+        @media #{$bigDesktop} { height: 525px; }
+        @media #{$hugeDesktop} { height: 525px; }
 
         h1 {
             font-size: 35px;

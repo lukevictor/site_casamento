@@ -43,6 +43,7 @@
                 <div class="col-md-8">
                     <h1>Fast Shop</h1>
                     <p>Loja de eletrônicos e eletrodomésticos. Caso prefira uma loja física é possível encontrá-las em diversos shoppings na cidade do Rio de Janeiro.</p>
+                    <p><strong>Código da lista: 184576</strong></p>
                     <p><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<a target="_blank" href="https://listadecasamento.fastshop.com.br/ListaCasamento/ListaCasamentoProdutos.aspx?ID=247643">Link direto para a lista</a></p>
                 </div>
             </div>
@@ -55,6 +56,7 @@
                 <div class="col-md-8">
                     <h1>Tok &amp; Stok</h1>
                     <p>Loja móveis utensílios domésticos, decora&ccedil;&atilde;o, etc. No rio de Janeiro as filiais físicas se encontram na Barra da Tijuca, Botafogo, Copacabana, Niterói e Norte Shopping.</p>
+                    <p><strong>Código da lista: 271015</strong></p>
                     <p><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<a target="_blank" href="https://lic.tokstok.com.br/lic/convidados/listaPresentes.jsf?idLista=271015">Link direto para a lista</a></p>
                 </div>
             </div>

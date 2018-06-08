@@ -20,8 +20,12 @@
             <div class="row">
                 <div class="col-md-12">
                     <section>
-                        <p>Agradecemos a vocês queridos amigos, por terem participado da nossa trajetória até aqui. Por terem vibrado conosco a cada nova conquista, por terem compartilhado diversos momentos de alegria e por enxugarem o nosso choro quando não tínhamos como seguir sozinhos.</p>
-                        <p>E agora, quando uma nova fase da aventura se aproxima, torcemos para que vocês continuem presentes ao nosso lado, presenciando nossas experiências, compartilhando da nossa felicidade e nos ajudando a superar as dificuldades.</p>
+                        <p>Agradecemos a vocês queridos amigos, por terem participado da nossa trajetória até aqui. Por
+                            terem vibrado conosco a cada conquista, por terem compartilhado diversos momentos de
+                            alegria e por enxugarem o nosso choro quando não tínhamos forças pra seguir sozinhos.</p>
+                        <p>E agora, nessa nova fase de nossas vidas que se aproxima, queremos que vocês continuem
+                            presentes ao nosso lado, presenciando nossas experiências, compartilhando da nossa
+                            felicidade e nos ajudando a superar as adversidades que surgirem.</p>
                     </section>
                 </div>
             </div>

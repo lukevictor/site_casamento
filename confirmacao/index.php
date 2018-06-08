@@ -24,9 +24,13 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                 <section>
-                        <p>Para que possamos organizar o evento da melhor forma possível, pedimos que todos os convidados nos informem com antecedência se poderão comparecer ou não.</p>
-                        <!-- <p>Alguns moram muito longe, até mesmo em outras cidades ou estados, ou tem compromissos pessoais/profissionais inadiáveis que simplesmente tornam impossível estar presente conosco para celebrar nossa união. Por mais que desejemos verdadeiramente a presença de todos nossos convidados, somos capazes de compreender eventuais ausências. Entretanto, pedimos que nos informem sinceramente sobre a perspectiva de comparecerem. Isto é de extrema importância para que possamos proporcionar o conforto e qualidade de serviço do qual acreditamos que nossos amigos e parentes sejam merecedores.</p> -->
-                        <p>Por favor, preencha o formulário abaixo com a sinalização positiva ou negativa sobre seu comparecimento. É possível realizar a confirmação para múltiplas pessoas de uma só vez listando-as como acompanhantes.</p>
+                        <p>Para que possamos organizar o evento da melhor forma possível, pedimos que
+                            todos os convidados nos informem com antecedência se poderão comparecer
+                            ou não.</p>
+                        <p>Por favor, preencha o formulário abaixo com a sinalização positiva ou negativa
+                            sobre seu comparecimento. É possível realizar a confirmação para múltiplas
+                            pessoas de uma só vez listando-as como acompanhantes. Ao preencher, não
+                            esqueça de colocar NOME e SOBRENOME.</p>
                     </section>
                 </div>
             </div>

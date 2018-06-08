@@ -63,12 +63,18 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <section>
-                        <p>A paquera começou, em 2008, no ambiente de trabalho. Ela, estagiária na coordenação e ele, funcionário da área de TI.
-                        Passaram uma semana intensa de trocas de mensagens por orkut, msn, gtalk. Até que, enfim, marcam de sair com uns amigos.
-                        Quando o grande dia chegou, ela passou duas horas calada na mesa do barzinho sem dizer uma palavra de tão nervosa que estava. Enquanto ele não parou de falar se quer por um instante. 
-                        Quando ela se retirou pra ir ao banheiro, ele nem pensou duas vezes e foi atrás dela no lavabo para lhe roubar um beijo. </p>
-                        <p>Pronto! Gamou e grudou! Ja são 10 anos juntos compartilhando diversos momentos: aniversários, viagens, intercâmbio,  graduações, mestrado, MBA e ate o local de trabalho.</p>
-                        <p>E o 11 de Agosto se aproxima (...)</p>
+                        <p>A paquera começou, em 2008, no ambiente de trabalho. Ela, estagiária na coordenação de sua
+                            Faculdade e ele, funcionário da área de TI. Passaram uma semana intensa trocando mensagens
+                            por orkut, msn e gtalk. Até que, enfim, marcam de sair com uns amigos. Quando o grande dia
+                            chegou, ela passou duas horas calada na mesa do barzinho de tão nervosa que estava.
+                            Enquanto ele, não parou de falar se quer por um instante. Quando ela se retirou pra ir ao
+                            banheiro, ele nem pensou muito e foi atrás dela no lavabo para lhe roubar um beijo. Pronto! Gamou e grudou!</p>
+                        <p>Hoje estão aqui, com 10 anos de muita história pra contar: beijos, sorrisos, algumas briguinhas
+                            (ninguém é perfeito rsrs), aniversários, festas, cineminhas, Netflix, viagens, muitas idas a Cabo
+                            Frio, intercâmbio, graduações, mestrado, MBA, compartilham até o mesmo local de trabalho,
+                            etc.</p>
+                        <p>Agora o 11 de Agosto se aproxima e uma nova página dessa história começa a ser escrita e eles
+                            estão cheios de expectativas, sonhos e confiantes de que tem muito mais coisas boas por vir!</p>
                     </section>
                 </div>
             </div>

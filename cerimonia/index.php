@@ -49,7 +49,7 @@
                     <h1>Endereço</h1>
                     <section>
                         <p>Vila Inglesa Casa de Festas</p>
-                        <p>Estrada dos Três Rios, 2134 - Freguesia (Jacarepaguá), Rio de Janeiro - RJ, 22745-005</p>
+                        <p>Estrada dos Três Rios, 2134 - Freguesia (Jacarepaguá), Rio de Janeiro - RJ</p>
                     </section>
                 </div>
             </div>
