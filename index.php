@@ -26,7 +26,7 @@
 
 			<div class="row animate-if" ng-if="animarSubtitulo">
 				<div class="col-xs-12 subtitulo">
-					<span>Vamos nos casar!</span>
+					<span>11/08/2018</span>
 				</div>
 			</div>
 
