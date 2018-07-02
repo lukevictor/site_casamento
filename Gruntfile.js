@@ -141,6 +141,7 @@ module.exports = function(grunt) {
                         '<%= app.templates %>/header.tpl.php',
 						'<%= app.templates %>/footer.tpl.php',
 						'<%= app.templates %>/javascript.tpl.php',
+						'<%= app.templates %>/estilos_galeria.tpl.php',
 						'<%= app.templates %>/estilos_landing.tpl.php'
 					]
 				}
