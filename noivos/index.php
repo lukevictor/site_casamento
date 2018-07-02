@@ -91,14 +91,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#1">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0002.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0002.jpg">
                             </a>
                             <div class="modal fade" id="1" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0002.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0002.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the first one on my Gallery</h4>
@@ -111,14 +111,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#2">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0003.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0003.jpg">
                             </a>
                             <div class="modal fade" id="2" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0003.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0003.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the second one on my Gallery</h4>
@@ -131,14 +131,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#4">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0005.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0005.jpg">
                             </a>
                             <div class="modal fade" id="4" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0005.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0005.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the fourth one on my Gallery</h4>
@@ -151,14 +151,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#5">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0006.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0006.jpg">
                             </a>
                             <div class="modal fade" id="5" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0006.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0006.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the fifth one on my Gallery</h4>
@@ -171,14 +171,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#6">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0007.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0007.jpg">
                             </a>
                             <div class="modal fade" id="6" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0007.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0007.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the sixth one on my Gallery</h4>
@@ -191,14 +191,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#7">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0008.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0008.jpg">
                             </a>
                             <div class="modal fade" id="7" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0008.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0008.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the seventh one on my Gallery</h4>
@@ -211,14 +211,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#9">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0010.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0010.jpg">
                             </a>
                             <div class="modal fade" id="9" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0010.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0010.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the ninth one on my Gallery</h4>
@@ -231,14 +231,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#10">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0011.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0011.jpg">
                             </a>
                             <div class="modal fade" id="10" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0011.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0011.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the tenth one on my Gallery</h4>
@@ -251,14 +251,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#11">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0012.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0012.jpg">
                             </a>
                             <div class="modal fade" id="11" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0012.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0012.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the leventh one on my Gallery</h4>
@@ -271,14 +271,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#12">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0013.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0013.jpg">
                             </a>
                             <div class="modal fade" id="12" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0013.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0013.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the 12th one on my Gallery</h4>
@@ -291,14 +291,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#13">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0014.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0014.jpg">
                             </a>
                             <div class="modal fade" id="13" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0014.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0014.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the 13th one on my Gallery</h4>
@@ -311,14 +311,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#14">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0015.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0015.jpg">
                             </a>
                             <div class="modal fade" id="14" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0015.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0015.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the 14th one on my Gallery</h4>
@@ -331,14 +331,14 @@ include_once "../template/header.tpl.php";
                         <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
                             <div class="box">
                             <a href="#" data-toggle="modal" data-target="#15">
-                                <img src="../assets/images/ensaio/IMG-20180701-WA0016.jpg">
+                                <img src="../assets/images/opt/ensaio/IMG-20180701-WA0016.jpg">
                             </a>
                             <div class="modal fade" id="15" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <div class="modal-body">
-                                    <img src="../assets/images/ensaio/IMG-20180701-WA0018.jpg">
+                                    <img src="../assets/images/opt/ensaio/IMG-20180701-WA0018.jpg">
                                     </div>
                                     <div class="col-md-12 description">
                                         <h4>This is the 15th one on my Gallery</h4>
