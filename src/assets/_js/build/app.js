@@ -220,7 +220,45 @@ app.controller('LandingController', function ($scope, $log, $timeout, moment) {
 
 
 /**
- * Controller Angular para a pagina de padrihos.
+ * Controller Angular para a pagina de Noivos.
+ * 
+ * @author felipe.leao
+ */
+app.controller('NoivosController', function ($scope, $log) {
+
+    $scope.galeria = [
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0020.jpg", largo: true},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0032.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0035.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0043.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0044.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0062.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0092.jpg", largo: true},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0073.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0108.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0112.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0122.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0113.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0128.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0140.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0153.jpg", largo: true},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0166.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0179.jpg"},
+        {src: "../assets/images/opt/ensaio/C_F_PreWedding-0189.jpg"}
+    ];
+
+    /**
+     * Metodo de inicializacao
+     */
+    $scope.init = function () {
+        
+    };
+
+});
+
+
+/**
+ * Controller Angular para a pagina de padrinhos.
  * 
  * @author felipe.leao
  */
@@ -289,6 +327,43 @@ app.controller('PadrinhosController', function ($scope, $log) {
 });
 
 
+
+app.directive('fotoGaleria', function() {
+    
+    t =  '<div class="col-sm-12 col-xs-12 gal-item" ng-class="item.largo ? \'col-md-8\' : \'col-md-4\' ">';
+    t += '    <div class="box">';
+    t += '        <a href="#" data-toggle="modal" data-target="{{\'#\'+index}}">';
+    t += '            <img src="{{item.src}}">';
+    t += '        </a>';
+    t += '        <div class="modal fade" id="{{index}}" tabindex="-1" role="dialog">';
+    t += '            <div class="modal-dialog" role="document">';
+    t += '                <div class="modal-content">';
+    t += '                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">';
+    t += '                        <span aria-hidden="true">×</span>';
+    t += '                    </button>';
+    t += '                    <div class="modal-body">';
+    t += '                        <img src="{{item.src}}">';
+    t += '                    </div>';
+    t += '                    <div ng-if="item.descricao" class="col-md-12 description">';
+    t += '                        <h4>{{item.descricao}}</h4>';
+    t += '                   </div>';
+    t += '                </div>';
+    t += '            </div>';
+    t += '        </div>';
+    t += '    </div>';
+    t += '</div>';
+
+
+    return {
+        restrict: 'AE',
+        scope: {
+            item: '=',
+            index: "@"
+        },
+        replace: true,
+        template: t
+    };
+});
 
 /**
  * API de servico para atender a pagina de confirmacao de presenca.

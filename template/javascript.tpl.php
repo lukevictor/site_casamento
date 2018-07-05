@@ -19,4 +19,4 @@
 		<script type="text/javascript" src="<?= THIRD_PARTY_ROOT; ?>/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
     <script type="text/javascript" src="<?= THIRD_PARTY_ROOT; ?>/angularjs-dropdown-multiselect/dist/angularjs-dropdown-multiselect.min.js"></script>
     <script type="text/javascript" src="<?= THIRD_PARTY_ROOT; ?>/angular-recaptcha/release/angular-recaptcha.min.js"></script>
-    <script type="text/javascript" src="<?= JS_ROOT; ?>/app.min.js?rel=b87a496f35"></script>
+    <script type="text/javascript" src="<?= JS_ROOT; ?>/app.min.js?rel=361068e58d"></script>

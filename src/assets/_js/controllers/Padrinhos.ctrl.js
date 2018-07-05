@@ -1,5 +1,5 @@
 /**
- * Controller Angular para a pagina de padrihos.
+ * Controller Angular para a pagina de padrinhos.
  * 
  * @author felipe.leao
  */

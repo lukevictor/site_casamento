@@ -13,6 +13,12 @@ body{
 	height: 350px;
 	overflow: hidden;
 }
+@media (max-width: 768px) {
+    .gal-item .box{
+        height: 150px;
+        overflow: hidden;
+    }
+}
 .box img{
 	height: 100%;
 	width: 100%;
@@ -115,10 +121,10 @@ body{
     opacity: 1;
 }
 @media (min-width: 768px) {
-.gal-container .modal-dialog {
-    width: 55%;
-    margin: 50 auto;
-}
+    .gal-container .modal-dialog {
+        width: 75%;
+        margin: 50 auto;
+    }
 }
 @media (max-width: 768px) {
     .gal-container .modal-content{
