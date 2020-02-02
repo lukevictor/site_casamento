@@ -17,9 +17,9 @@
 			<div class="row animate-if" ng-if="animarConjuge">
 				<div class="col-xs-12">
 					<div class="row conjuges" >
-						<div class="col-sm-5 noiva">Camilla Azevedo</div>
+						<div class="col-sm-5 noiva">Milena</div>
 						<div class="col-sm-2 conector"><span class="glyphicon glyphicon-heart"></span></div>
-						<div class="col-sm-5 noivo">Felipe Leão</div>
+						<div class="col-sm-5 noivo">Lucas</div>
 					</div>
 				</div>
 			</div>

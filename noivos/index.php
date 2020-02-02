@@ -27,7 +27,7 @@ include_once "../template/header.tpl.php";
                 <div class="col-md-4 col-md-offset-2">
                     <div class="frame-conjuge-wrapper">
                         <div class="frame-conjuge">
-                        <h1>Felipe Leão</h1>
+                        <h1>Lucas</h1>
                             <div class="img-avatar" style="background-image: url(../assets/images/opt/felipe3.jpg);"></div>
                             <section>
                                 <p>Desenvolvedor de Sistemas. Balzaquiano. Judoca. Cozinheiro gourmet. Apreciador de cervejas artesanais e vinhos. Nerd. Viciado em jogo de tabuleiro. Fiel ouvinte de podcast. Arranha um violão. Tenta surfar. Ele não fala, grita.  É inteligente, íntegro, autêntico, corajoso, organizado, sincero, teimoso, perfeccionista e criativo.</p>
@@ -38,7 +38,7 @@ include_once "../template/header.tpl.php";
                 <div class="col-md-4">
                     <div class="frame-conjuge-wrapper">
                         <div class="frame-conjuge">
-                        <h1>Camilla Azevedo</h1>
+                        <h1>Milena</h1>
                             <div class="img-avatar" style="background-image: url(../assets/images/opt/camilla.jpg);"></div>
                             <section>
                                 <p>Dorminhoca, agitada, patricinha e organizada.

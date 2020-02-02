@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Camilla e Felipe vão subir no altar em 2018! Aqui você encontra todas as informações sobre o grande dia dos dois.">
     <meta name="keywords" content="casamento, união, amor, festa">
-    <meta name="author" content="Felipe Leão">
+    <meta name="author" content="Lucas">
     <meta name="robots" content="index,follow">
 
     <link rel="icon" type="image/png" href="<?= IMAGES_ROOT; ?>/opt/favicon.png">
