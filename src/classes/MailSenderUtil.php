@@ -13,7 +13,7 @@ require_once __DIR__ . '/../lib/PHPMailer/src/SMTP.php';
  * Classe utilitaria para facilitar o envio de emails. Os parametros para envio sao 
  * carregados a partir de constantes globais.
  * 
- * @author Felipe Leao
+ * @author Lucas 
  */
 class MailSenderUtil {
 

@@ -19,7 +19,7 @@ define("MAIL_SMTP_SECURITY", "tls");
 define("MAIL_SMTP_PORT", 587);
 define("MAIL_SMTP_USERNAME", "nao-responder@camillaefelipenoaltar.com.br");
 define("MAIL_SMTP_PASSWORD", "6MH4dTP3L4eC");
-define("MAIL_FROM", array('EMAIL'=>'nao-responder@camillaefelipenoaltar.com.br', 'NOME'=>'Camilla & Felipe no altar') );
+define("MAIL_FROM", array('EMAIL'=>'nao-responder@camillaefelipenoaltar.com.br', 'NOME'=>'Milena & Lucas no altar') );
 define("MAIL_DESTINATARIOS", array(
     array('EMAIL'=>'felipebcleao@gmail.com', 'NOME'=>'Felipe'),
     array('EMAIL'=>'camilla.lopazev@gmail.com', 'NOME'=>'Camilla'),

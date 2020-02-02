@@ -99,7 +99,7 @@ include_once "../template/header.tpl.php";
                         <img src="../assets/images/opt/double_arrow.png" alt="Separador" class="img-responsive center separador">
                     </section>
                     <section>
-                        <img src="../assets/images/opt/brasao.png" alt="Camilla e Feliipe" class="img-responsive center">
+                        <img src="../assets/images/opt/brasao.png" alt="Milena e Feliipe" class="img-responsive center">
                     </section>
                 </div>
             </div>

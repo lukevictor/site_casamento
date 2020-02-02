@@ -1,6 +1,6 @@
 {
   "name": "site_casamento",
-  "description": "Site de casamento da Camilla e Felipe",
+  "description": "Site de casamento da Milena e Felipe",
   "version": "1.0.0",
   "homepage": "https://github.com/felipeleao/site_casamento",
   "repository": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/felipeleao/site_casamento/issues"
   },
   "main": "index.js",
-  "author": "Felipe Leao (felipe.leao)",
+  "author": "Lucas  (felipe.leao)",
   "private": true,
   "dependencies": {},
   "devDependencies": {

@@ -13,7 +13,7 @@
     	<?php include_once("template/navbar.tpl.php");?>
     	<div class="container">
 
-
+ 
 			<div class="row animate-if" ng-if="animarConjuge">
 				<div class="col-xs-12">
 					<div class="row conjuges" >
