@@ -1,7 +1,7 @@
 /**
  * Controller Angular para a pagina de Noivos.
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 app.controller('NoivosController', function ($scope, $log) {
 

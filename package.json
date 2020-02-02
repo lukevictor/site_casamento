@@ -1,17 +1,17 @@
 {
   "name": "site_casamento",
-  "description": "Site de casamento da Milena e Felipe",
+  "description": "Site de casamento da Milena e Lucas ",
   "version": "1.0.0",
-  "homepage": "https://github.com/felipeleao/site_casamento",
+  "homepage": "https://github.com/Lucas leao/site_casamento",
   "repository": {
     "type": "git",
-    "url": "https://github.com/felipeleao/site_casamento.git"
+    "url": "https://github.com/Lucas leao/site_casamento.git"
   },
   "bugs": {
-    "url": "https://github.com/felipeleao/site_casamento/issues"
+    "url": "https://github.com/Lucas leao/site_casamento/issues"
   },
   "main": "index.js",
-  "author": "Lucas  (felipe.leao)",
+  "author": "Lucas  (lucas.victor)",
   "private": true,
   "dependencies": {},
   "devDependencies": {

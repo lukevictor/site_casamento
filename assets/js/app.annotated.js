@@ -3,7 +3,7 @@
  * todos os controllers, diretivas e servicos Angular para a aplicacao. Ao empacotar
  * os arquivos com o Grunt, um arquivo unico com todo o codigo do angular sera criado.
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 
 var app = angular.module('app', ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'timer', 'angularMoment', 'angularjs-dropdown-multiselect', 'vcRecaptcha']);
@@ -88,7 +88,7 @@ app.config(['$httpProvider', '$logProvider', '$injector', function ($httpProvide
 /**
  * Controller Angular para o formulario de confirmacao de presenca.
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 app.controller('FormularioPresencaController', ['$scope', '$log', 'vcRecaptchaService', 'formularioPresencaAPI', function ($scope, $log, vcRecaptchaService, formularioPresencaAPI) {
 
@@ -192,7 +192,7 @@ app.controller('FormularioPresencaController', ['$scope', '$log', 'vcRecaptchaSe
 /**
  * Controller Angular para a pagina inicial.
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 app.controller('LandingController', ['$scope', '$log', '$timeout', 'moment', function ($scope, $log, $timeout, moment) {
 
@@ -222,7 +222,7 @@ app.controller('LandingController', ['$scope', '$log', '$timeout', 'moment', fun
 /**
  * Controller Angular para a pagina de Noivos.
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 app.controller('NoivosController', ['$scope', '$log', function ($scope, $log) {
 
@@ -260,7 +260,7 @@ app.controller('NoivosController', ['$scope', '$log', function ($scope, $log) {
 /**
  * Controller Angular para a pagina de padrinhos.
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 app.controller('PadrinhosController', ['$scope', '$log', function ($scope, $log) {
 
@@ -368,7 +368,7 @@ app.directive('fotoGaleria', function() {
 /**
  * API de servico para atender a pagina de confirmacao de presenca.
  * 
- * @author felipeleao
+ * @author Lucas leao
  */
 app.factory("formularioPresencaAPI", ['$http', '$log', function ($http, $log) {
 
@@ -427,7 +427,7 @@ app.factory("mensagensAPI", function(){
 /**
  * Servico para auxiliar com a criacao e exibicao de modais pela aplicação
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 app.factory("modalAPI", ['$uibModal', '$log', '$interval', 'MODAL', 'mensagensAPI', function($uibModal, $log, $interval, MODAL, mensagensAPI){
 	var controllerDefault = 'DefaultModalController';

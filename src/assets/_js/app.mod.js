@@ -3,7 +3,7 @@
  * todos os controllers, diretivas e servicos Angular para a aplicacao. Ao empacotar
  * os arquivos com o Grunt, um arquivo unico com todo o codigo do angular sera criado.
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 
 var app = angular.module('app', ['ui.bootstrap', 'ngAnimate', 'ngSanitize', 'timer', 'angularMoment', 'angularjs-dropdown-multiselect', 'vcRecaptcha']);

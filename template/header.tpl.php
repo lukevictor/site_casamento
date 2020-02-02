@@ -23,7 +23,7 @@
     <link rel="icon" type="image/png" href="<?= IMAGES_ROOT; ?>/opt/favicon.png">
     <!-- <link rel="icon" href="<?= IMAGES_ROOT; ?>/favicon.ico"> -->
 
-    <title>Milena &amp; Felipe</title>
+    <title>Milena &amp; Lucas </title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

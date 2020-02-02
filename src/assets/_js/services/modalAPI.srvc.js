@@ -1,7 +1,7 @@
 /**
  * Servico para auxiliar com a criacao e exibicao de modais pela aplicação
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 app.factory("modalAPI", function($uibModal, $log, $interval, MODAL, mensagensAPI){
 	var controllerDefault = 'DefaultModalController';

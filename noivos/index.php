@@ -28,7 +28,7 @@ include_once "../template/header.tpl.php";
                     <div class="frame-conjuge-wrapper">
                         <div class="frame-conjuge">
                         <h1>Lucas</h1>
-                            <div class="img-avatar" style="background-image: url(../assets/images/opt/felipe3.jpg);"></div>
+                            <div class="img-avatar" style="background-image: url(../assets/images/opt/Lucas 3.jpg);"></div>
                             <section>
                                 <p>Desenvolvedor de Sistemas. Balzaquiano. Judoca. Cozinheiro gourmet. Apreciador de cervejas artesanais e vinhos. Nerd. Viciado em jogo de tabuleiro. Fiel ouvinte de podcast. Arranha um violão. Tenta surfar. Ele não fala, grita.  É inteligente, íntegro, autêntico, corajoso, organizado, sincero, teimoso, perfeccionista e criativo.</p>
                             </section>

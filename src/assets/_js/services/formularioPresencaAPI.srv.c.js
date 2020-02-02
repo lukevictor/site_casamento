@@ -1,7 +1,7 @@
 /**
  * API de servico para atender a pagina de confirmacao de presenca.
  * 
- * @author felipeleao
+ * @author Lucas leao
  */
 app.factory("formularioPresencaAPI", function ($http, $log) {
 

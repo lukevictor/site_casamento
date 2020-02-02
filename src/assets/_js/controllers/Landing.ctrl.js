@@ -1,7 +1,7 @@
 /**
  * Controller Angular para a pagina inicial.
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 app.controller('LandingController', function ($scope, $log, $timeout, moment) {
 

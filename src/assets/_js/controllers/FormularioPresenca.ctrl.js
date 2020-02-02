@@ -1,7 +1,7 @@
 /**
  * Controller Angular para o formulario de confirmacao de presenca.
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 app.controller('FormularioPresencaController', function ($scope, $log, vcRecaptchaService, formularioPresencaAPI) {
 

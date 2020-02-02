@@ -1,7 +1,7 @@
 /**
  * Controller Angular para a pagina de padrinhos.
  * 
- * @author felipe.leao
+ * @author lucas.victor
  */
 app.controller('PadrinhosController', function ($scope, $log) {
 

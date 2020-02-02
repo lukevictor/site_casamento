@@ -7,7 +7,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="<?= APPLICATION_ROOT; ?>">Camilla&nbsp;<span class="detalhe glyphicon glyphicon-heart"></span>&nbsp;Felipe</a>
+						<a class="navbar-brand" href="<?= APPLICATION_ROOT; ?>">Camilla&nbsp;<span class="detalhe glyphicon glyphicon-heart"></span>&nbsp;Lucas </a>
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
