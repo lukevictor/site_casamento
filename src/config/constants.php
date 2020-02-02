@@ -17,12 +17,12 @@ define("MAIL_DEBUG_MODE", 0 );
 define("MAIL_SMTP_HOST", "mx1.hostinger.com.br");
 define("MAIL_SMTP_SECURITY", "tls");
 define("MAIL_SMTP_PORT", 587);
-define("MAIL_SMTP_USERNAME", "nao-responder@camillaeLucas noaltar.com.br");
+define("MAIL_SMTP_USERNAME", "nao-responder@MilenaeLucas noaltar.com.br");
 define("MAIL_SMTP_PASSWORD", "6MH4dTP3L4eC");
-define("MAIL_FROM", array('EMAIL'=>'nao-responder@camillaeLucas noaltar.com.br', 'NOME'=>'Milena & Lucas no altar') );
+define("MAIL_FROM", array('EMAIL'=>'nao-responder@MilenaeLucas noaltar.com.br', 'NOME'=>'Milena & Lucas no altar') );
 define("MAIL_DESTINATARIOS", array(
     array('EMAIL'=>'Lucas bcleao@gmail.com', 'NOME'=>'Lucas '),
-    array('EMAIL'=>'camilla.lopazev@gmail.com', 'NOME'=>'Camilla'),
+    array('EMAIL'=>'Milena.lopazev@gmail.com', 'NOME'=>'Milena'),
 ));
 
 ////////////////////////////////////////////////////////////////

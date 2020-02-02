@@ -39,7 +39,7 @@ include_once "../template/header.tpl.php";
                     <div class="frame-conjuge-wrapper">
                         <div class="frame-conjuge">
                         <h1>Milena</h1>
-                            <div class="img-avatar" style="background-image: url(../assets/images/opt/camilla.jpg);"></div>
+                            <div class="img-avatar" style="background-image: url(../assets/images/opt/Milena.jpg);"></div>
                             <section>
                                 <p>Dorminhoca, agitada, patricinha e organizada.
                                 Carinhosa mais que tudo e CDF nos estudos.
