@@ -197,7 +197,7 @@ app.controller('FormularioPresencaController', ['$scope', '$log', 'vcRecaptchaSe
 app.controller('LandingController', ['$scope', '$log', '$timeout', 'moment', function ($scope, $log, $timeout, moment) {
 
     $scope.dataAtual = moment();
-    $scope.dataCasamento = moment("2018-08-11 19:30");
+    $scope.dataCasamento = moment("2020-09-12 19:45");
     $scope.animarConjuge = false;
     $scope.animarSubtitulo = false;
     $scope.animarCountdown = false;
