@@ -282,7 +282,7 @@ app.controller('PadrinhosController', ['$scope', '$log', function ($scope, $log)
             madrinha: { nome: "Thayna", foto: "Thayna.jpg" }
         },
         {
-            padrinho: { nome: "Toninho", foto: "Toninho.PNG" },
+            padrinho: { nome: "Toninho", foto: "Toninho.jpg" },
             madrinha: { nome: "Zélia", foto: "Zélia.jpg" }
         },
         {
