@@ -3944,7 +3944,7 @@ var ngAnimateSwapDirective = ['$animate', '$rootScope', function($animate, $root
             { id: 7, title: 'Nakia McLaughlin' },
             { id: 8, title: 'Jordon Blanda DVM' },
             { id: 9, title: 'Rhoda Hand' },
-            { id: 10, title: 'Alexandrea Sauer' }
+            { id: 10, title: 'AlexThayná Sauer' }
           ];
         }])
         .controller('HomeController', [function() {
