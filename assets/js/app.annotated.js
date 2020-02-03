@@ -266,8 +266,8 @@ app.controller('PadrinhosController', ['$scope', '$log', function ($scope, $log)
 
     $scope.casais = [
         {
-            padrinho: { nome: "Renan", foto: "Renan.jpg" },
-            madrinha: { nome: "Luciana", foto: "Luciana.jpg" }
+            padrinho: { nome: "Daniel", foto: "Daniel.jpg" },
+            madrinha: { nome: "Salete", foto: "Salete.jpg" }
         },
         {
             padrinho: { nome: "Alexandre", foto: "Douglas.jpg" },
