@@ -48,7 +48,7 @@
             <div class="mapa">
                 <div >
                     <h1>Como Chegar <small>/Localiza&ccedil;&atilde;o</small></h1>
-                    <iframe src="https://www.google.com/maps/place/Igreja+S%C3%A3o+Judas+Tadeu/@-23.6282536,-46.6464655,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5b6bac91c551:0x221de69c0d4279d!8m2!3d-23.6282536!4d-46.6442768" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.332694677172!2d-46.64646548467211!3d-23.628253584649716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b6bac91c551%3A0x221de69c0d4279d!2sIgreja%20S%C3%A3o%20Judas%20Tadeu!5e0!3m2!1spt-BR!2sbr!4v1581006135086!5m2!1spt-BR!2sbr" allowfullscreen=""></iframe>
                 </div>
                 <div>
                     <section>
@@ -90,7 +90,7 @@
         <div class="mapa">
             <div >
                 <h1>Como Chegar <small>/Localiza&ccedil;&atilde;o</small></h1>
-                <iframe src="https://www.google.com/maps/place/Espa%C3%A7o+Maria+Callas/@-23.6494054,-46.6357096,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5b297493a7f5:0xc8fbd36170864400!8m2!3d-23.6494103!4d-46.6335209" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.7419629529963!2d-46.63570958467182!3d-23.649410284639245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b297493a7f5%3A0xc8fbd36170864400!2sEspa%C3%A7o%20Maria%20Callas!5e0!3m2!1spt-BR!2sbr!4v1581006388857!5m2!1spt-BR!2sbr" allowfullscreen=""></iframe>
             </div>
             <div>
                 <section>
