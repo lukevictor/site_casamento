@@ -36,17 +36,8 @@
                 </div>
             </div>
 
-
-            <div class="row">
-                <div class="col-xs-8 col-xs-offset-2">
-                    <section>
-                        <img src="../assets/images/opt/double_arrow.png" alt="Separador" class="img-responsive center separador">
-                    </section>
-                </div>
-            </div>
-
             </div> <!-- /container -->
-            
+
             <div class="mapa">
                 <div >
                     <h1>Como Chegar <small>/Localiza&ccedil;&atilde;o</small></h1>
