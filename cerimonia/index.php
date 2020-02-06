@@ -20,17 +20,39 @@
             <div class="row">
                 <div class="col-md-12">
                     <section>
-                        <p>Tanto a cerimônia de casamento quanto a recepção ocorrerão na <strong>Vila Inglesa Casa de Festas</strong> às <strong>19:30h</strong> do dia <strong>11 de Agosto de 2018</strong>.</p>
+                        <p>A cerimônia de casamento acontecerá na <strong>Igreja São Judas Tadeu</strong> às <strong>19:45h</strong> do dia <strong>12 de Setembro de 2020</strong>.</p>
                         <p>Pedimos que não se atrase pois este momento é muito especial para nós e gostaríamos que fizesse parte dele por completo! Contamos com você!</p>
                     </section>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-12">
-                    <h2>Estacionamento</h2>
+                <div class="col-xs-8 col-xs-offset-2">
+                    <h1>Endereço da Igreja</h1>
                     <section>
-                        <p>A casa de festa provê estacionamento com serviço de valet sem custos. Mas lembre-se: se beber, não dirija!</p>
+                        <p>Igreja São Judas Tadeu</p>
+                        <p>Av. Jabaquara - Planalto Paulista, São Paulo - SP, 04046-500</p>
+                    </section>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <section>
+                        <img src="../assets/images/opt/double_arrow.png" alt="Separador" class="img-responsive center separador">
+                    </section>
+                </div>
+            </div>
+
+            <div class="mapa">
+                <div >
+                    <h1>Como Chegar <small>/Localiza&ccedil;&atilde;o</small></h1>
+                    <iframe src="https://www.google.com/maps/place/Igreja+S%C3%A3o+Judas+Tadeu/@-23.6282536,-46.6464655,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5b6bac91c551:0x221de69c0d4279d!8m2!3d-23.6282536!4d-46.6442768" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <section>
+                        <img src="../assets/images/opt/double_arrow.png" alt="Separador" class="img-responsive center separador">
                     </section>
                 </div>
             </div>
@@ -46,10 +68,10 @@
 
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
-                    <h1>Endereço</h1>
+                    <h1>Endereço da Recepção</h1>
                     <section>
-                        <p>Vila Inglesa Casa de Festas</p>
-                        <p>Estrada dos Três Rios, 2134 - Freguesia (Jacarepaguá), Rio de Janeiro - RJ</p>
+                        <p>Espaço Maria Callas</p>
+                        <p>R. Amborés, 180 - Jabaquara, São Paulo - SP, 04319-110</p>
                     </section>
                 </div>
             </div>
@@ -68,11 +90,20 @@
         <div class="mapa">
             <div >
                 <h1>Como Chegar <small>/Localiza&ccedil;&atilde;o</small></h1>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.5081570700927!2d-43.32683488437728!3d-22.931505344520108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8206d60a68f%3A0x6d80fc3313291292!2sVila+Inglesa+Casa+de+Festas!5e0!3m2!1spt-BR!2sbr!4v1523047986984" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/place/Espa%C3%A7o+Maria+Callas/@-23.6494054,-46.6357096,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5b297493a7f5:0xc8fbd36170864400!8m2!3d-23.6494103!4d-46.6335209" allowfullscreen></iframe>
             </div>
             <div>
                 <section>
                     <img src="../assets/images/opt/double_arrow.png" alt="Separador" class="img-responsive center separador">
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Estacionamento</h2>
+                <section>
+                    <p>A casa de festa provê estacionamento com serviço de valet sem custos. Mas lembre-se: se beber, não dirija!</p>
                 </section>
             </div>
         </div>
