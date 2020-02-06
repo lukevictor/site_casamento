@@ -45,6 +45,8 @@
                 </div>
             </div>
 
+            </div> <!-- /container -->
+            
             <div class="mapa">
                 <div >
                     <h1>Como Chegar <small>/Localiza&ccedil;&atilde;o</small></h1>
@@ -57,6 +59,7 @@
                 </div>
             </div>
 
+            <div class="container principal">
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <section>
