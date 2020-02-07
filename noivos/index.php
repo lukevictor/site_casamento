@@ -28,9 +28,9 @@ include_once "../template/header.tpl.php";
                     <div class="frame-conjuge-wrapper">
                         <div class="frame-conjuge">
                         <h1>Lucas</h1>
-                            <div class="img-avatar" style="background-image: url(../assets/images/opt/Lucas 3.jpg);"></div>
+                            <div class="img-avatar" style="background-image: url(../assets/images/opt/Lucas3.jpg);"></div>
                             <section>
-                                <p>Desenvolvedor de Sistemas. Balzaquiano. Judoca. Cozinheiro gourmet. Apreciador de cervejas artesanais e vinhos. Nerd. Viciado em jogo de tabuleiro. Fiel ouvinte de podcast. Arranha um violão. Tenta surfar. Ele não fala, grita.  É inteligente, íntegro, autêntico, corajoso, organizado, sincero, teimoso, perfeccionista e criativo.</p>
+                                <p>Desenvolvedor de Sistemas. Enxadrista. Amante da cultura japonesa. Rockista \../. Nerd. Arranha um violão. Calmo até demais.</p>
                             </section>
                         </div>
                     </div>
@@ -41,10 +41,11 @@ include_once "../template/header.tpl.php";
                         <h1>Milena</h1>
                             <div class="img-avatar" style="background-image: url(../assets/images/opt/Milena.jpg);"></div>
                             <section>
-                                <p>Dorminhoca, agitada, patricinha e organizada.
-                                Carinhosa mais que tudo e CDF nos estudos.
-                                Obstinada quando focada e dramanhenta quando incomodada.
-                                Altruísta mais do que deveria e impiedosa quando uma causa a conquista.</p>
+                                <p>A melhor professora de pilates do universo.
+                                Adora uma sonequinha em dias de chuva (também em dias sem chuva rs).
+                                Determinação e disciplina são seus sobrenomes.
+                                Tudo que é doce, fofinho, rosa ou bem brilhante a encanta.
+                                </p>
                             </section>
                         </div>
                     </div>
@@ -66,7 +67,7 @@ include_once "../template/header.tpl.php";
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <section>
-                        <p>A paquera começou, em 2008, no ambiente de trabalho. Ela, estagiária na coordenação de sua
+                        <p><!--A paquera começou, em 2008, no ambiente de trabalho. Ela, estagiária na coordenação de sua
                             Faculdade e ele, funcionário da área de TI. Passaram uma semana intensa trocando mensagens
                             por orkut, msn e gtalk. Até que, enfim, marcam de sair com uns amigos. Quando o grande dia
                             chegou, ela passou duas horas calada na mesa do barzinho de tão nervosa que estava.
@@ -77,7 +78,8 @@ include_once "../template/header.tpl.php";
                             Frio, intercâmbio, graduações, mestrado, MBA, compartilham até o mesmo local de trabalho,
                             etc.</p>
                         <p>Agora o 11 de Agosto se aproxima e uma nova página dessa história começa a ser escrita e eles
-                            estão cheios de expectativas, sonhos e confiantes de que tem muito mais coisas boas por vir!</p>
+                            estão cheios de expectativas, sonhos e confiantes de que tem muito mais coisas boas por vir!-->
+                            Em construção...</p>
                     </section>
                 </div>
             </div>
