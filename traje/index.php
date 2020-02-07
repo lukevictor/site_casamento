@@ -21,7 +21,7 @@
                 <div class="col-md-12">
                     <section>
                         <p>Vestido curto ou longo? Camisa com ou sem gravata? Calça social ou jeans?</p>
-                        <p>Sabemos que no Rio de Janeiro existem cerimônias com os mais diversos tipos de códigos de vestimentas. Depende do lugar, horário, religião...</p>
+                        <p>Sabemos que existem cerimônias com os mais diversos tipos de códigos de vestimentas. Depende do lugar, horário, religião...</p>
                         <p>Abaixo estão algumas dicas para auxiliá-los!</p>
                     </section>
                 </div>
