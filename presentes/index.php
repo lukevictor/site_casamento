@@ -38,25 +38,25 @@
             <div class="row card-loja">
                 <div class="col-md-4 hidden-xs hidden-sm">
                     <!-- <img src="../assets/images/opt/Fast-Shop-Logo.jpg" class="img-responsive center" /> -->
-                    <img src="../assets/images/opt/logo_fast.png" class="img-responsive center" />
+                    <img src="../assets/images/opt/logo_pontofrio.png" class="img-responsive center" />
                 </div>
                 <div class="col-md-8">
-                    <h1>Fast Shop</h1>
+                    <h1>Ponto Frio</h1>
                     <p>Loja de eletrônicos e eletrodomésticos. Caso prefira uma loja física é possível encontrá-las em diversos shoppings na cidade do Rio de Janeiro.</p>
-                    <p><strong>Código da lista: 184576</strong></p>
-                    <p><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<a target="_blank" href="https://listadecasamento.fastshop.com.br/ListaCasamento/ListaCasamentoProdutos.aspx?ID=247643">Link direto para a lista</a></p>
+                    <p><strong>Código da lista: 848951</strong></p>
+                    <p><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<a target="_blank" href="https://casamento.pontofrio.com.br/#/lista-presentes/848951">Link direto para a lista</a></p>
                 </div>
             </div>
 
             <div class="row card-loja">
                 <div class="col-md-4 hidden-xs hidden-sm">
                     <!-- <img src="../assets/images/opt/Etna-Logo.png" class="img-responsive center" /> -->
-                    <img src="../assets/images/opt/logo_tokstok.png" class="img-responsive center" />
+                    <img src="../assets/images/opt/logo_camicado.png" class="img-responsive center" />
                 </div>
                 <div class="col-md-8">
-                    <h1>Tok &amp; Stok</h1>
-                    <p>Loja móveis utensílios domésticos, decora&ccedil;&atilde;o, etc. No rio de Janeiro as filiais físicas se encontram na Barra da Tijuca, Botafogo, Copacabana, Niterói e Norte Shopping.</p>
-                    <p><strong>Código da lista: 271015</strong></p>
+                    <h1>Camicado</h1>
+                    <p>Loja móveis utensílios domésticos, decora&ccedil;&atilde;o, etc.</p>
+                    <p><strong></strong></p>
                     <p><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<a target="_blank" href="https://lic.tokstok.com.br/lic/convidados/listaPresentes.jsf?idLista=271015">Link direto para a lista</a></p>
                 </div>
             </div>
