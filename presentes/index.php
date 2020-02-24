@@ -57,7 +57,7 @@
                     <h1>Camicado</h1>
                     <p>Loja móveis utensílios domésticos, decora&ccedil;&atilde;o, etc.</p>
                     <p><strong></strong></p>
-                    <p><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<a target="_blank" href="https://lic.tokstok.com.br/lic/convidados/listaPresentes.jsf?idLista=271015">Link direto para a lista</a></p>
+                    <p><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<a target="_blank" href="https://www.camicado.com.br/lista/convidado/lucasemilenamenegozzi">Link direto para a lista</a></p>
                 </div>
             </div>
 
@@ -69,22 +69,7 @@
                 </div>
             </div>
 
-             <div class="row">
-                <div class="col-md-12">
-                    <h1>Outras Op&ccedil;ões <small>/Caso você prefira</small></h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-8 col-xs-offset-2">
-                    <section>
-                        <img src="../assets/images/opt/double_arrow.png" alt="Separador" class="img-responsive center separador">
-                    </section>
-                </div>
-            </div>
-
-
-
+            
 		 </div> <!-- /container -->
 
 		<div id="push"></div>
