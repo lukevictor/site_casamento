@@ -59,6 +59,7 @@ app.controller('FormularioPresencaController', function ($scope, $log, vcRecaptc
     // Envio do formulario
     //////////////////////////////////////////////////////////////////
     $scope.enviar = function(){
+        
         $log.debug("Enviado formulario.");
         if(_validarFormulario()){
             $scope.loading = true;

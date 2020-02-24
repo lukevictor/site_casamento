@@ -17,19 +17,19 @@ define("MAIL_DEBUG_MODE", 0 );
 define("MAIL_SMTP_HOST", "mx1.hostinger.com.br");
 define("MAIL_SMTP_SECURITY", "tls");
 define("MAIL_SMTP_PORT", 587);
-define("MAIL_SMTP_USERNAME", "nao-responder@MilenaeLucas noaltar.com.br");
-define("MAIL_SMTP_PASSWORD", "6MH4dTP3L4eC");
-define("MAIL_FROM", array('EMAIL'=>'nao-responder@MilenaeLucas noaltar.com.br', 'NOME'=>'Milena & Lucas no altar') );
+define("MAIL_SMTP_USERNAME", "casamento@lucasemilena.online");
+define("MAIL_SMTP_PASSWORD", "KnF!;=PG");
+define("MAIL_FROM", array('EMAIL'=>'casamento@lucasemilena.online', 'NOME'=>'Casamento Lucas & Milena') );
 define("MAIL_DESTINATARIOS", array(
-    array('EMAIL'=>'Lucas bcleao@gmail.com', 'NOME'=>'Lucas '),
-    array('EMAIL'=>'Milena.lopazev@gmail.com', 'NOME'=>'Milena'),
+    array('EMAIL'=>'lucas.c.victor@gmail.com', 'NOME'=>'Lucas '),
+    array('EMAIL'=>'milenamenegozzi@gmail.com', 'NOME'=>'Milena'),
 ));
 
 ////////////////////////////////////////////////////////////////
 // Constantes para reCaptcha
 ////////////////////////////////////////////////////////////////
 define("RECAPTCHA_SITE_URL", "https://www.google.com/recaptcha/api/siteverify");
-define("RECAPTCHA_SECRET", "6LcAlVEUAAAAAJU2UJT0hgIpgMVuTD-YfFo3R8hT");
+define("RECAPTCHA_SECRET", "6Le9wdsUAAAAANJomBo9-TYHB2JNvU4CK3_gEK-g");
 
 
 

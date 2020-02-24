@@ -95,7 +95,7 @@ app.controller('FormularioPresencaController', ['$scope', '$log', 'vcRecaptchaSe
     $scope.response = null;
     $scope.widgetId = null;
     $scope.recaptcha = {
-        key : '6LcAlVEUAAAAAIIsS6aPif9j_wzgjKotaabw_9FL',
+        key : '6Le9wdsUAAAAAJ8dCUNdhc1EdUMzYV3be58zLmwS',
         response : null,
         widgetId : null
     };
@@ -146,6 +146,7 @@ app.controller('FormularioPresencaController', ['$scope', '$log', 'vcRecaptchaSe
     // Envio do formulario
     //////////////////////////////////////////////////////////////////
     $scope.enviar = function(){
+        
         $log.debug("Enviado formulario.");
         if(_validarFormulario()){
             $scope.loading = true;
@@ -371,7 +372,7 @@ app.directive('fotoGaleria', function() {
  * @author Lucas leao
  */
 app.factory("formularioPresencaAPI", ['$http', '$log', function ($http, $log) {
-
+    
     var _enviarConfirmacao = function (formulario, recaptchaToken) {
         $log.debug("Invocando o envio de confirmacao.");
 		return $http.post("confirmar.php", {formulario: formulario, recaptcha: recaptchaToken});
