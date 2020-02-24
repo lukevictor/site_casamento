@@ -8,7 +8,7 @@ app.controller('FormularioPresencaController', function ($scope, $log, vcRecaptc
     $scope.response = null;
     $scope.widgetId = null;
     $scope.recaptcha = {
-        key : '6LcAlVEUAAAAAIIsS6aPif9j_wzgjKotaabw_9FL',
+        key : '6Le9wdsUAAAAAJ8dCUNdhc1EdUMzYV3be58zLmwS',
         response : null,
         widgetId : null
     };
