@@ -32,19 +32,14 @@ define("RECAPTCHA_SITE_URL", "https://www.google.com/recaptcha/api/siteverify");
 define("RECAPTCHA_SECRET", "6Le9wdsUAAAAANJomBo9-TYHB2JNvU4CK3_gEK-g");
 
 
-
-
-
-
-
-
-
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function getApplicationRoot(){
     $current_dir = dirname(__FILE__);
     $root_dir = $_SERVER['DOCUMENT_ROOT'];
-    return str_replace("/src/config", "", str_replace($root_dir, SITE_URL, $current_dir));
+    $root = str_replace("\src\config", "", str_replace($root_dir, SITE_URL, $current_dir));
+    $root = str_replace("/src/config", "", $root);
+    return $root;
 }
 
 function siteURL(){
