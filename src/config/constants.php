@@ -9,6 +9,7 @@ define("IMAGES_ROOT", APPLICATION_ROOT."/assets/images");
 define("CSS_ROOT", APPLICATION_ROOT."/assets/css");
 define("JS_ROOT", APPLICATION_ROOT."/assets/js");
 define("THIRD_PARTY_ROOT", APPLICATION_ROOT."/third-party");
+define("ACTUAL_SITE", "lucasemilena.online");
 
 ////////////////////////////////////////////////////////////////
 // Constantes para configuracao do envio de email

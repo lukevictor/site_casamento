@@ -362,7 +362,7 @@ app.directive('fotoGaleria', function() {
 /**
  * API de servico para atender a pagina de confirmacao de presenca.
  * 
- * @author Lucas leao
+ * @author lukevictor
  */
 app.factory("formularioPresencaAPI", ['$http', '$log', function ($http, $log) {
     
