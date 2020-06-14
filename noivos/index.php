@@ -27,7 +27,7 @@ include_once "../template/header.tpl.php";
                         <h1>Lucas</h1>
                             <div class="img-avatar" style="background-image: url(../assets/images/opt/Lucas3.jpg);"></div>
                             <section>
-                                <p>Desenvolvedor de Sistemas. Enxadrista. Amante da cultura japonesa. Rockista \../. Nerd. Arranha um violão. Calmo até demais.</p>
+                                <p>Desenvolvedor de Sistemas (o melhor, na humilde opinião da noiva). Enxadrista. Amante da cultura japonesa, rockista, Nerd (muitooo). Arranha um violão. Calmo até demais. Acima de tudo, um homem de caráter, valores, princípios...com o olhar mais bondoso.</p>
                             </section>
                         </div>
                     </div>
