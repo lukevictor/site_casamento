@@ -20,9 +20,6 @@ include_once "../template/header.tpl.php";
                     <h1>Os Noivos <small>/Um pelo outro</small></h1>
                 </div>
             </div>
-
-
-
             <div class="row">
                 <div class="col-md-4 col-md-offset-2">
                     <div class="frame-conjuge-wrapper">
